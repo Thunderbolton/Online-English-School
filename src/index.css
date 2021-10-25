@@ -1,5 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  height: 13vh;
+  /* border: red 2px solid; */
+  background-color: #fff;
+  /* margin-left: auto; */
+  /* position: fixed;
+  z-index: 1; */
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li {
+  margin: 20px;
+}
+
+.navbar h1 {
+  flex-grow: 1;
+  color: #3f4d79;
+}
+
+.navbar h3 {
+  font-weight: 500;
+  cursor: pointer;
+}
+.navbar h3:hover {
+  color: #3f4d79;
+  font-weight: 300;
+}
+
+.hero {
+  /* color: blue; */
+  /* background-color:darkgray; */
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  /* border: red 2px solid; */
+  top: 108px;
+  height: 65vh; 
+  width: 100%; /* All of the screen across */
+  /* margin: 0 auto; */
+  position: relative; /* So that elements inside can be positioned absolutely within it */
+}
+
+.hero > * { /* this selects all children within it */
+  position: absolute;
+}
+
+
+.hero img:nth-child(1) {
+  width: 300px;
+  height: 75%;
+  top: 25%;
+  right: 10px;
+  /* border: red 2px solid; */
+  /* transform: scale(-1,1); */
+}
+
+.hero img:nth-child(2) {
+  width: 300px;
+  height: 75%;
+  left: 10px;
+  /* border: red 2px solid; */
+  transform: scaleX(-1);
+}
+
+.hero h1 {
+  width: 100%;
+  /* left: 150px; */
+  top: 22%;
+  font-size: clamp(3rem, 5vw, 5rem);
+  /* border: red 2px solid; */
+  text-align: center;
+}
+
+.hero h2 {
+  width: 100%;
+  top: 40%;
+  font-weight: 100;
+  /* font-size: 3vw; */
+  font-size: clamp(2rem, 3vw, 5rem);
+  /* border: red 2px solid; */
+  /* margin: auto; */
+  text-align: center;
+} 
+
+.hero button {
+  /* width: 30%; */
+  /* min-width: 20%; */
+  /* max-width: 22vw; */
+  top: 60%; 
+  left: 30%;
+  padding: 1.2em;
+  cursor: pointer;
+  white-space: nowrap; /* text will stay on one line */
+  /* font-size: 3vw; */
+  font-size: clamp(1rem, 1.5vw, 2.5rem);
+  border: #3f4d79 2px solid;
+  border-radius: 30px;
+  background-color: #3f4d79;
+  color: aliceblue;
+}
+
+@media(max-width:900px) {
+  .hero img:nth-child(1) {
+    opacity: 0.6;
+    width: 300px;
+  }
+  .hero img:nth-child(2) {
+    opacity: 0.6;
+    width: 300px;
+  }
+}
+
+@media(max-width:600px) {
+  .hero img:nth-child(1) {
+    opacity: 0.4;
+    width: 200px;
+  }
+  .hero img:nth-child(2) {
+    opacity: 0.4;
+    width: 200px;
+  }
+}
+
+.infoContainer {
+  position: relative;
+  /* display: flex; */
+  width: 100%;
+  color: red;
+  top: 500px;
+}
+
+/* .infoBox1 {
+} */
