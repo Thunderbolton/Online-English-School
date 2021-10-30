@@ -14,10 +14,11 @@ body {
 
 .navbar {
   display: flex;
+  align-items: baseline;
   position: fixed;
   width: 100%;
   z-index: 99;
-  height: 13vh;
+  min-height: 10vh;
   /* border: red 2px solid; */
   background-color: #fff;
   /* margin-left: auto; */
@@ -35,6 +36,7 @@ body {
 
 .navbar h1 {
   flex-grow: 1;
+  margin: 20px;
   color: #3f4d79;
 }
 
@@ -44,7 +46,7 @@ body {
 }
 .navbar h3:hover {
   color: #3f4d79;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .hero {
@@ -55,7 +57,7 @@ body {
   align-items: center; */
   /* border: red 2px solid; */
   top: 108px;
-  height: 65vh; 
+  min-height: 90vh; 
   width: 100%; /* All of the screen across */
   /* margin: 0 auto; */
   position: relative; /* So that elements inside can be positioned absolutely within it */
@@ -78,6 +80,7 @@ body {
 .hero img:nth-child(2) {
   width: 300px;
   height: 75%;
+  bottom: 30%;
   left: 10px;
   /* border: red 2px solid; */
   transform: scaleX(-1);
@@ -145,10 +148,86 @@ body {
 .infoContainer {
   position: relative;
   /* display: flex; */
+  flex-direction: column;
   width: 100%;
-  color: red;
-  top: 500px;
+  /* border: 2px solid blue; */
+  top: 100px;
+  border-top: 100px solid #3f4d79;
 }
 
+.infoContainer > * {
+  min-height: 60vh;
+  /* border: 2px solid red; */
+}
+
+.infoContainer section {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.infoBox1 img, .infoBox2 img {
+  min-width: 50%;
+  max-width: 700px;
+ 
+}
+
+.infoContainer h1 {
+  font-size: clamp(1rem, 3rem, 5rem);
+  padding-bottom: 2rem;
+}
+
+.infoContainer h3 {
+  font-size: clamp(1rem, 2rem, 5rem);
+  font-weight: 100;
+  text-align: center;
+  align-self: center;
+  max-width: 70%;
+}
+
+.infoBoxtext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoBox2 {
+  flex-direction: row-reverse;
+  background-color: #3f4d79;
+  color: #fff;
+}
+
+.infoBox3 {
+  flex-direction: column;
+  align-items: center;
+}
+.infoBox3 img {
+  max-width: 20rem;
+  /* border: red 2px solid; */
+}
+
+@media (max-width:700px) {
+  .infoBox1, .infoBox2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .infoBox1 img, .infoBox2 img {
+    width: 100%;
+  }
+  /* .infoBox2 {
+    flex-direction: column;
+    align-items: center;
+  } */
+}
+
+/* .infoBox2 > img {
+  transform: scaleX(-1);
+}
+#root > div > div > div > section.infoBox2 > img */
+
 /* .infoBox1 {
+  
+  
 } */
