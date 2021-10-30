@@ -13,12 +13,12 @@ const Navbar = () => {
                     <h3>Pricing</h3>
                 </li>
                 <li>
-                    <button>
-                        <a href="/">Home</a>
+                    <button id="register-button">
+                        <a href="/register">Register</a>
                     </button>    
                 </li>
                 <li>
-                    <button>    
+                    <button id="login-button">    
                         <a href="/login">Login</a>
                     </button>
                 </li>

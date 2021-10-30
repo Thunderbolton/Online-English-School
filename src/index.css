@@ -6,9 +6,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-body {
+  text-decoration: none;
   font-family: 'Lato', sans-serif;
 }
 
@@ -22,8 +20,7 @@ body {
   /* border: red 2px solid; */
   background-color: #fff;
   /* margin-left: auto; */
-  /* position: fixed;
-  z-index: 1; */
+  /*z-index: 1; */
 }
 
 .navbar ul {
@@ -31,7 +28,7 @@ body {
 }
 
 .navbar li {
-  margin: 20px;
+  margin: 17px;
 }
 
 .navbar h1 {
@@ -49,9 +46,31 @@ body {
   font-weight: 600;
 }
 
+#register-button {
+  /* border: solid 2px red; */
+  border: #3f4d79 3px solid; 
+  color: white;
+  font-size: clamp(1rem, 1.1vw, 2rem);
+  border-radius: 30px;
+  background-color: #3f4d79;
+}
+#register-button a {
+  color: #fff;
+  padding: 1.5em;
+}
+
+#login-button {
+  border: #3f4d79 3px solid; 
+  font-size: clamp(1rem, 1.1vw, 2rem);
+  border-radius: 30px;
+  background-color: #fff;
+}
+#login-button a {
+  color: #3f4d79;
+  padding: 1.5em;
+}
+
 .hero {
-  /* color: blue; */
-  /* background-color:darkgray; */
   display: flex;
   /* justify-content: center;
   align-items: center; */
@@ -99,10 +118,8 @@ body {
   width: 100%;
   top: 40%;
   font-weight: 100;
-  /* font-size: 3vw; */
   font-size: clamp(2rem, 3vw, 5rem);
   /* border: red 2px solid; */
-  /* margin: auto; */
   text-align: center;
 } 
 
@@ -115,12 +132,11 @@ body {
   padding: 1.2em;
   cursor: pointer;
   white-space: nowrap; /* text will stay on one line */
-  /* font-size: 3vw; */
   font-size: clamp(1rem, 1.5vw, 2.5rem);
   border: #3f4d79 2px solid;
   border-radius: 30px;
   background-color: #3f4d79;
-  color: aliceblue;
+  color: #fff;
 }
 
 @media(max-width:900px) {
