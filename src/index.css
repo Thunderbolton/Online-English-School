@@ -35,6 +35,7 @@
   flex-grow: 1;
   margin: 20px;
   color: #3f4d79;
+  /* border: red solid 2px; */
 }
 
 .navbar h3 {
@@ -44,6 +45,13 @@
 .navbar h3:hover {
   color: #3f4d79;
   font-weight: 600;
+}
+
+.navbar img {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 5%;
+  display: none;
 }
 
 #register-button {
@@ -70,6 +78,42 @@
   padding: 1.5em;
 }
 
+.mobile-links {
+  display: none;
+  z-index: 10;
+}
+
+@media(max-width:700px) {
+    .navbar {
+      flex-direction: column;
+      /* border: red 2px solid; */
+    }
+    .navbar li { /* the full screen nav links */
+      display: none;
+    }
+    .navbar img {
+      display: flex;
+      margin-left: auto;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+    }
+    .mobile-links {
+      display: flex;
+      position: relative;
+      bottom: 15px;
+      /* flex-direction: column; */
+      margin-left: auto;
+      padding: 5px;
+      margin-right: 5px;
+    }
+  }
+
+
+
+
+  
+  
 .hero {
   display: flex;
   /* justify-content: center;
