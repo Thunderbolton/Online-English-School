@@ -10,6 +10,8 @@
   font-family: 'Lato', sans-serif;
 }
 
+/* NAVIGATION */
+
 .navbar {
   display: flex;
   align-items: baseline;
@@ -31,8 +33,10 @@
   margin: 17px;
 }
 
-.navbar h1 {
+.navbar a {
   flex-grow: 1;
+}
+.navbar h1 {
   margin: 20px;
   color: #3f4d79;
   /* border: red solid 2px; */
@@ -112,7 +116,7 @@
 
 
 
-  
+/* HOME MAIN CONTENT */  
   
 .hero {
   display: flex;
@@ -282,12 +286,27 @@
   } */
 }
 
-/* .infoBox2 > img {
-  transform: scaleX(-1);
-}
-#root > div > div > div > section.infoBox2 > img */
 
-/* .infoBox1 {
-  
-  
-} */
+/* TEACHERS */
+
+.teachers {
+  position: absolute;
+  top: 15%;
+  left: 10%
+}
+
+/* MATERIALS */
+
+.materials {
+  position: absolute;
+  top: 15%;
+  left: 10%
+}
+
+/* Pricing */
+
+.pricing {
+  position: absolute;
+  top: 15%;
+  left: 10%
+}

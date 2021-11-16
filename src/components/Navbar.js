@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import menuIcon from "../img/menuIcon.svg"
 import NavLinks from "./NavLinks";
 
@@ -57,11 +58,18 @@ const Navbar = () => {
     
     return (    
         <nav className="navbar">
-            <h1>Online English School</h1>
+            <Link to="/">
+                <h1>Online English School</h1>
+            </Link>    
 
-            {showMenu && mobileMenu.map(item => 
-                <h3 className="mobile-links" key={item}>{item}</h3>   
+            {showMenu && mobileMenu.map((item, index) =>
+                <Link to={item} className="mobile-links" key={index}> 
+                    <h3>{item}</h3>
+                </Link>    
+                // console.log(index) = 0, 1, 2
+                // console.log(item) = Teachers, Materials, Pricing
             )}
+            
 
             {<NavLinks />}
 
