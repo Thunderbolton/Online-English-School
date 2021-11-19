@@ -311,24 +311,60 @@
 
 .teacher-card-grid {
   display: grid;
+  width: 85%;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 1.3rem;
+}
+
+.teacher-card {
+  border: solid 2px #3f4d79;
+  border-radius: 15px;
+  height: 600px;
+  margin: 20px;
+  background-color: snow;
+  /* box-shadow: 5px 10px #888888; */
+}
+.teacher-card-name {
+  padding: 10px;
+  color: #3f4d79;
+  text-align: center;
+}
+.teacher-card-text {
+  padding: 10px;
+  line-height: 1.5;
+  text-align: center;
+  /* border: solid 2px red; */
 }
 
 .teacher-img {
-  /* width: 100%; */
-  height: 200px;
+  /* width: 100%;
+  min-height: 20rem; */
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.teacher-bio {
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width:1000px){
+  .teacher-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+  /* .teacher-card {
+    min-height: 250px;
+  } */
 }
 
 @media (max-width:800px){
   .teacher-card-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width:500px){
-  .teacher-card-grid {
     grid-template-columns: 1fr;
+  }
+  .teacher-card {
+    min-height: 325px;
   }
 }
 

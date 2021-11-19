@@ -12,56 +12,71 @@ const TeacherCards = () => {
         {
             name: "James",
             location: "Tokyo, Japan",
-            profilePicture: james,
             homeCountry: "UK",
-            bio: "I'm an English teacher living in Japan"
+            interests: "Sports, Hiking, Reading",
+            profilePicture: james,
+            bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, consequatur nisi dolores aspernatur alias cum voluptatum dicta. Excepturi, ipsam sunt adipisci repellendus",
+            isOnline: true
         },
         {
             name: "Lily",
             location: "New York, USA",
-            profilePicture: lily,
             homeCountry: "USA",
-            bio: "I'm an English teacher living in USA"
+            interests: "",
+            profilePicture: lily,
+            bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, consequatur nisi dolores aspernatur alias cum voluptatum dicta. Excepturi, ipsam",
+            isOnline: true
         },
         {
             name: "Alex",
             location: "Madrid, Spain",
-            profilePicture: alex,
             homeCountry: "New Zealand",
-            bio: "I'm an English teacher living in Spain"
+            interests: "",
+            profilePicture: alex,
+            bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, consequatur nisi dolores aspernatur alias cum",
+            isOnline: false
         },
         {
             name: "Emma",
             location: "Tokyo, Japan",
-            profilePicture: emma,
             homeCountry: "UK",
-            bio: "I'm an English teacher living in Japan"
+            interests: "",
+            profilePicture: emma,
+            bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, consequatur nisi dolores aspernatur alias cum voluptatum dicta. Excepturi, ipsam sunt adipisci repellendus",
+            isOnline: true
         },
         {
             name: "John",
             location: "New York, USA",
-            profilePicture: john,
             homeCountry: "USA",
-            bio: "I'm an English teacher living in USA"
+            interests: "",
+            profilePicture: john,
+            bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, consequatur nisi dolores aspernatur alias cum voluptatum dicta.",
+            isOnline: false
         },
         {
             name: "Grace",
             location: "Madrid, Spain",
-            profilePicture: grace,
             homeCountry: "USA",
-            bio: "I'm an English teacher living in Spain"
+            interests: "",
+            profilePicture: grace,
+            bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, consequatur nisi dolores aspernatur alias cum voluptatum dicta. Excepturi, ipsam sunt adipisci repellendus",
+            isOnline: true
         },
     ]
     return ( 
         <div className="teacher-card-grid">
             {cards.map((card) => (
-                <div className="teacher-cards">
-                    <h1>{card.name}</h1>
-                    <h3>From: {card.homeCountry}</h3>
-                    <h4>Living in: {card.location}</h4>
+                <div className="teacher-card">
+                    <h1 className="teacher-card-name">{card.name}</h1>
+                    <div className="teacher-card-text">
+                        <h3>From: {card.homeCountry}</h3>
+                        <h4>Living in: {card.location}</h4>
+                        <h4>Interests: {card.interests}</h4>
+                    </div>
                     <img className="teacher-img" src={card.profilePicture}></img>
-                    <hr />
-                    <p>{card.bio}</p>
+                    <p className="teacher-bio">{card.bio}</p>
+                    
                 </div>    
             ))}
         </div>
