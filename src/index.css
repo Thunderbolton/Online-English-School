@@ -311,12 +311,14 @@
 
 .teacher-card-grid {
   display: grid;
+  /* position: relative; */
   width: 85%;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.3rem;
 }
 
 .teacher-card {
+  position: relative;
   border: solid 2px #3f4d79;
   border-radius: 15px;
   height: 600px;
@@ -344,6 +346,27 @@
   object-fit: cover;
 }
 
+.teacher-info {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fas {
+  color: lawngreen;
+  background-color: lawngreen;
+  border: green 2px solid;
+  border-radius: 50%;
+}
+
+.faOffline {
+  color: lightgray;
+  background-color: lightgray;
+  border: grey 2px solid;
+  /* border-radius: 100%; */
+}
+
 .teacher-bio {
   padding: 10px;
   text-align: center;
@@ -366,6 +389,9 @@
   .teacher-card {
     min-height: 325px;
   }
+  /* .fas {
+    left: 35%;
+  } */
 }
 
 /* MATERIALS */

@@ -19,7 +19,7 @@ const TeacherCards = () => {
             isOnline: true
         },
         {
-            name: "Lily",
+            name: "Olivia",
             location: "New York, USA",
             homeCountry: "USA",
             interests: "",
@@ -68,15 +68,21 @@ const TeacherCards = () => {
         <div className="teacher-card-grid">
             {cards.map((card) => (
                 <div className="teacher-card">
-                    <h1 className="teacher-card-name">{card.name}</h1>
+                    <div className="teacher-info">
+                        {card.isOnline === true ? 
+                            <div>
+                                <i class="fas fa-circle"></i>
+                            </div> : <i class="fas fa-circle fa faOffline"></i>}    
+                        <h1 className="teacher-card-name">{card.name}</h1>
+                    </div>
                     <div className="teacher-card-text">
                         <h3>From: {card.homeCountry}</h3>
                         <h4>Living in: {card.location}</h4>
                         <h4>Interests: {card.interests}</h4>
+                        
                     </div>
                     <img className="teacher-img" src={card.profilePicture}></img>
                     <p className="teacher-bio">{card.bio}</p>
-                    
                 </div>    
             ))}
         </div>
