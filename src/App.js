@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Teachers from "./components/Teachers";
 import Pricing from "./components/Pricing";
 import Materials from "./components/Materials";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -23,7 +24,8 @@ const App = () => {
             <Route path="/pricing">
               <Pricing />
             </Route>
-          </Switch>        
+          </Switch> 
+        <Footer />         
       </div>
     </Router>
   );
