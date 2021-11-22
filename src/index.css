@@ -21,8 +21,6 @@
   min-height: 10vh;
   /* border: red 2px solid; */
   background-color: #fff;
-  /* margin-left: auto; */
-  /*z-index: 1; */
 }
 
 .navbar ul {
@@ -318,11 +316,11 @@
 }
 
 .teacher-card {
-  position: relative;
+  /* position: relative; */
   border: solid 2px #3f4d79;
-  border-radius: 15px;
-  height: 600px;
-  margin: 20px;
+  border-radius: 25px;
+  height: 650px;
+  margin: 15px;
   background-color: snow;
   /* box-shadow: 5px 10px #888888; */
 }
@@ -364,22 +362,38 @@
   color: lightgray;
   background-color: lightgray;
   border: grey 2px solid;
-  /* border-radius: 100%; */
+}
+
+.teacher-card-bottom {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-around;
 }
 
 .teacher-bio {
-  padding: 10px;
+  padding: 2%;
   text-align: center;
 }
 
-@media (max-width:1000px){
+.teacher-select-btn {
+  width: 80%;
+  margin: auto;
+  margin-top: 13%;
+  padding: 0.3rem;
+  font-size: clamp(0.9rem, 1.1vw, 2rem);
+  color: white;
+  background-color: #3f4d79;
+  text-transform: uppercase;
+  border: #3f4d79 3px solid; 
+  border-radius: 15px;
+}
+
+@media (max-width:1050px){
   .teacher-card-grid {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
   }
-  /* .teacher-card {
-    min-height: 250px;
-  } */
 }
 
 @media (max-width:800px){
@@ -389,9 +403,9 @@
   .teacher-card {
     min-height: 325px;
   }
-  /* .fas {
-    left: 35%;
-  } */
+  .teacher-select-btn {
+    font-size: 1.3rem;
+  }
 }
 
 /* MATERIALS */

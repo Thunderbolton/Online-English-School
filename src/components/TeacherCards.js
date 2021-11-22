@@ -13,9 +13,8 @@ const TeacherCards = () => {
             name: "James",
             location: "Tokyo, Japan",
             homeCountry: "UK",
-            interests: "Sports, Hiking, Reading",
             profilePicture: james,
-            bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, consequatur nisi dolores aspernatur alias cum voluptatum dicta. Excepturi, ipsam sunt adipisci repellendus",
+            bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, consequatur nisi dolores aspernatur alias cum voluptatum dicta. Excepturi, ipsam",
             isOnline: true
         },
         {
@@ -33,7 +32,7 @@ const TeacherCards = () => {
             homeCountry: "New Zealand",
             interests: "",
             profilePicture: alex,
-            bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, consequatur nisi dolores aspernatur alias cum",
+            bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, consequatur nisi dolores aspernatur alias cum consectetur adipisicing elit",
             isOnline: false
         },
         {
@@ -51,7 +50,7 @@ const TeacherCards = () => {
             homeCountry: "USA",
             interests: "",
             profilePicture: john,
-            bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, consequatur nisi dolores aspernatur alias cum voluptatum dicta.",
+            bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, consequatur nisi dolores aspernatur alias cum voluptatum dicta nisi dolores aspernatur nisi dolores.",
             isOnline: false
         },
         {
@@ -78,11 +77,14 @@ const TeacherCards = () => {
                     <div className="teacher-card-text">
                         <h3>From: {card.homeCountry}</h3>
                         <h4>Living in: {card.location}</h4>
-                        <h4>Interests: {card.interests}</h4>
-                        
+                         
                     </div>
                     <img className="teacher-img" src={card.profilePicture}></img>
-                    <p className="teacher-bio">{card.bio}</p>
+                    <div className="teacher-card-bottom">
+                        <p className="teacher-bio">{card.bio}</p>
+                        {card.isOnline === true ? 
+                        <button className="teacher-select-btn">Talk with {card.name} today!</button> : <button className="teacher-select-btn">Check {card.name + "'s"} schedule</button>}
+                    </div>
                 </div>    
             ))}
         </div>
