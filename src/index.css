@@ -295,16 +295,24 @@
   margin-bottom: 200px;
 }
 
-.teachers img {
-  max-width: 65rem;
+.teachers-hero-img {
+  width: 60rem;
   /* border: solid 2px red; */
 }
 
+@media (max-width:735px) {
+  .teachers-hero-img {
+    width: 38rem;
+    margin-top: 30px;
+  }  
+}
+
 .teachers h2 {
-  /* z-index: 99; */
-  position: absolute;
-  top: 25px;
+  /* position: absolute;
+  top: 25px; */
+  text-align: center;
   font-size: 2rem;
+  margin-top: -23px;
 }
 
 .teacher-card-grid {
@@ -313,6 +321,7 @@
   width: 85%;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.3rem;
+  margin-top: 25px;
 }
 
 .teacher-card {
@@ -423,6 +432,8 @@
   top: 15%;
   left: 10%
 }
+
+/* Footer */
 
 .footer {
   width: 100%;
