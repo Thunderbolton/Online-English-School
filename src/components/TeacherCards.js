@@ -70,8 +70,8 @@ const TeacherCards = () => {
                     <div className="teacher-info">
                         {card.isOnline === true ? 
                             <div>
-                                <i class="fas fa-circle"></i>
-                            </div> : <i class="fas fa-circle fa faOffline"></i>}    
+                                <i class="fas fa-circle faOnline"></i>
+                            </div> : <i class="fas fa-circle faOffline"></i>}    
                         <h1 className="teacher-card-name">{card.name}</h1>
                     </div>
                     <div className="teacher-card-text">

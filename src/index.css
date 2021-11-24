@@ -360,7 +360,7 @@
   justify-content: center;
 }
 
-.fas {
+.faOnline {
   color: lawngreen;
   background-color: lawngreen;
   border: green 2px solid;
@@ -371,6 +371,7 @@
   color: lightgray;
   background-color: lightgray;
   border: grey 2px solid;
+  border-radius: 50%;
 }
 
 .teacher-card-bottom {
@@ -417,21 +418,36 @@
   }
 }
 
+
+
+
 /* MATERIALS */
 
 .materials {
-  position: absolute;
-  top: 15%;
-  left: 10%
+  position: relative;
+  top: 100px;
+  margin-bottom: 1220px;
+}
+
+.materials img {
+  min-width: 40rem;
+  object-fit: cover;
+  border: #3f4d79 solid 2px;
+  opacity: 0.5;
+}
+
+.materials-hero {
+  display: flex;
+  min-height: 50vh;
 }
 
 /* Pricing */
 
-.pricing {
+/* .pricing {
   position: absolute;
   top: 15%;
   left: 10%
-}
+} */
 
 /* Footer */
 
