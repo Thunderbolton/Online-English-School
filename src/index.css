@@ -426,13 +426,16 @@
 .materials {
   position: relative;
   top: 100px;
+  height: 700px;
   margin-bottom: 1220px; /* just to separate footer */
+  overflow: hidden;
 }
 
 .materials-hero {
   display: flex;
   position: relative;
-  min-height: 50vh;
+  /* max-height: 50vh; */
+  max-width: 100%;
 }
 
 .materials-hero img {
@@ -441,18 +444,22 @@
   /* right: 100%; */
   z-index: -1;
   /* min-width: 40rem; */
-  width: 100%;
-  right: 30%;
-  bottom: 21%;
+  width: 50%;
+  right: 60%;
+  top: 10px;
+  bottom: 21%; /* no effect */
   /* object-fit: contain; */
   /* object-position: center; */
   border: #3f4d79 solid 2px;
-  transform: scale(1.1) rotate(315deg);
+  transform: scale(2) rotate(315deg);
   opacity: 0.4;
+
 }
 
 .materials-hero img:nth-child(2) {
-  transform: translate(57%, 75%) rotate(315deg) scale(1.1);
+  transform: translate(5%, 85%) rotate(315deg) scale(2);
+  right: 0%;
+  top: 70px;
 }
 
 /* #conversation-img {
