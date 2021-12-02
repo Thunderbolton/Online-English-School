@@ -5,11 +5,11 @@ const MaterialsHero = () => {
     return ( 
         <div className="materials-hero">
             <img src={conversation} alt="a collection of conversation topics"></img>
-            <div className="conversation-info">
-                <p>Ease into lessons naturally using this material to engage in daily conversation. Select from a wide variety of 100 commonly talked-about topics.</p>
+            <div id="conversation-info" className="materials-hero-info">
+                <p>Ease into lessons naturally using this material to engage in daily conversation. Select from a variety of 100 commonly talked-about topics.</p>
                 <button id="conversation-btn" className="materials-hero-info-btn">Jump into daily conversation</button>
             </div>
-            <div className="news-info">
+            <div id="news-info" className="materials-hero-info">
                 <p>Explore a range of news categories and read articles from a selection of countries. Enjoy discussion on the latest stories.</p>
                 <button id="news-btn" className="materials-hero-info-btn">Read the latest news</button>
             </div>

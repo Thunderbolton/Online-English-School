@@ -10,6 +10,9 @@
   font-family: 'Lato', sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
 /* NAVIGATION */
 
 .navbar {
@@ -42,7 +45,6 @@
 
 .navbar h3 {
   font-weight: 500;
-  cursor: pointer;
 }
 .navbar h3:hover {
   color: #3f4d79;
@@ -174,7 +176,6 @@
   top: 60%; 
   left: 30%;
   padding: 1.2em;
-  cursor: pointer;
   white-space: nowrap; /* text will stay on one line */
   font-size: clamp(1rem, 1.5vw, 2.5rem);
   border: #3f4d79 2px solid;
@@ -462,63 +463,54 @@
   top: 70px;
 }
 
-.conversation-info {
+.materials-hero-info {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  line-height: 30px;
-  height: 250px;
+  line-height: 1.6em;
+  height: 350px;
   width: 25%;
-  margin-left: 7%;
-  margin-top: 10%;
   border: solid 5px #3f4d79;
-  /* font-weight: bold; */
-  /* color: #3f4d79; */
-  font-size: clamp(1.2rem, 1.1vw, 2rem);
+  font-size: clamp(1rem, 1.4vw, 1.5rem);
   background-color: rgba(255,250,250,0.8);
 }
 
-.news-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  line-height: 30px;
-  height: 250px;
-  width: 25%;
-  margin-left: 27%;
+#conversation-info {
+  margin-left: 4%;
+  margin-top: 2%;
+}
+
+#news-info {
+  margin-left: 35%;
   margin-top: 25%;
-  border: solid 5px #3f4d79;
-  background-color: rgba(255,250,250,0.8);
-  font-size: clamp(1.2rem, 1.1vw, 2rem);
 }
 
 .materials-hero-info-btn {
   width: 60%;
   padding: 10px;
-  margin-top: 35px;
-  font-size: clamp(0.9rem, 1.1vw, 2rem);
+  margin-top: 25px;
+  font-size: clamp(0.2rem, 1.3vw, 5rem);
   color: #fff;
   background-color: #3f4d79;
   text-transform: uppercase;
   font-weight: 600;
   border: #3f4d79 1px solid; 
   border-radius: 15px;
-  /* opacity: 0.9; */
 }
 
 .materials-hero p {
-  padding: 0 10px;
+  padding: 15px;
+  /* margin-bottom: 55px; */
 }
 
 
-/* border: #3f4d79 3px solid; 
-  font-size: clamp(1rem, 1.1vw, 2rem);
-  border-radius: 30px;
-  background-color: #fff; */
+@media (max-width:950px){
+  .materials-hero-info {
+    width: 25%;
+  }
+}
 
 @media(max-width:800px) {
   .materials {
