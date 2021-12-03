@@ -500,6 +500,40 @@ button {
   border-radius: 15px;
 }
 
+.materials-hero-info-btn-sm { /* buttons container */
+  display: none;
+  height: 662px;
+  width: 100vw;
+  margin-top: 50px;
+  margin-left: 15%;  
+}
+
+#conversation-btn-sm {
+  margin-top: 140px;
+  width: 80%;
+  padding: 15px;
+  font-size: clamp(0.8rem, 1.9vw, 5rem);
+  color: #fff;
+  background-color: #3f4d79;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: #3f4d79 1px solid;
+  border-radius: 15px;
+}
+
+#news-btn-sm {
+  width: 80%;
+  padding: 15px;
+  font-size: clamp(0.8rem, 1.9vw, 5rem);
+  color: #fff;
+  background-color: #3f4d79;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: #3f4d79 1px solid;
+  border-radius: 15px;
+  margin-top: 70%;
+}
+
 .materials-hero p {
   padding: 15px;
   /* margin-bottom: 55px; */
@@ -528,6 +562,12 @@ button {
     top: 120px;
     left: 0;
     margin-top: 50%;
+  }
+  .materials-hero-info {
+    display: none;
+  }
+  .materials-hero-info-btn-sm {
+    display: block;
   }
 
 }

@@ -14,6 +14,10 @@ const MaterialsHero = () => {
                 <button id="news-btn" className="materials-hero-info-btn">Read the latest news</button>
             </div>
             <img id="news-img" src={news} alt="a page with news articles" />
+            <div className="materials-hero-info-btn-sm">
+                <button id="conversation-btn-sm">Jump into daily conversation</button>
+                <button id="news-btn-sm">Read the latest news</button>
+            </div>
         </div>
      );
 }
