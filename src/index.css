@@ -428,7 +428,7 @@ button {
   position: relative;
   top: 100px;
   height: 750px;
-  margin-bottom: 1220px; /* just to separate footer */
+  margin-bottom: 600px; /* just to separate footer */
   overflow: hidden;
 }
 
@@ -543,7 +543,6 @@ button {
 
 .materials-hero p {
   padding: 15px;
-  /* margin-bottom: 55px; */
 }
 
 

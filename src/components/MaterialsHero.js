@@ -33,8 +33,8 @@ const MaterialsHero = () => {
             <img id="news-img" src={news} alt="a page with news articles" className={newsContrast}/>
 
             <div className="materials-hero-info-btn-sm">
-                <button id="conversation-btn-sm">Jump into daily conversation</button>
-                <button id="news-btn-sm">Read the latest news</button>
+                <button id="conversation-btn-sm" onMouseEnter={conversationContrastChange} onMouseLeave={() => setConversationContrast("materials-hero-img")}>Jump into daily conversation</button>
+                <button id="news-btn-sm" onMouseEnter={newsContrastChange} onMouseLeave={() => setNewsContrast("materials-hero-img")}>Read the latest news</button>
             </div>
         </div>
      );
