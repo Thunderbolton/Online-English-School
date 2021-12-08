@@ -448,10 +448,10 @@ button {
   border: #3f4d79 solid 2px;
   transform: scale(2) rotate(315deg);
   /* opacity: 0.4; */
-  filter: contrast(30%);
+  filter: contrast(40%);
 }
 .materials-hero-info-highlight {
-  filter: contrast(70%);
+  filter: contrast(80%);
   position: absolute;
   z-index: -1;
   border: #3f4d79 solid 2px;
