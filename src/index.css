@@ -427,7 +427,7 @@ button {
 .materials {
   position: relative;
   top: 100px;
-  height: 750px;
+  height: 90vh;
   margin-bottom: 600px; /* just to separate footer */
   overflow: hidden;
 }
@@ -444,7 +444,6 @@ button {
   z-index: -1;
   width: 50%;
   right: 46%;
-  /* top: 10px; */
   border: #3f4d79 solid 2px;
   transform: scale(2) rotate(315deg);
   /* opacity: 0.4; */
@@ -529,7 +528,6 @@ button {
 
 #conversation-btn-sm {
   margin-top: 140px;
-
 }
 
 #news-btn-sm {
@@ -539,7 +537,6 @@ button {
 .materials-hero p {
   padding: 15px;
 }
-
 
 @media (max-width:950px){
   .materials-hero-info {
@@ -577,11 +574,27 @@ button {
 
 /* Pricing */
 
-/* .pricing {
-  position: absolute;
-  top: 15%;
-  left: 10%
-} */
+.pricing {
+  position: relative;
+  top: 170px;
+  overflow: hidden;
+  /* height: 750px; */
+  margin-bottom: 800px;
+}
+
+.pricing-header {
+  width: 50%;
+  text-align: center;
+  line-height: 3rem;
+  margin: auto;
+}
+
+.pricing-hero {
+  display: flex;
+  width: 500px;
+  border: solid 2px red;
+  margin: auto;
+}
 
 /* Footer */
 

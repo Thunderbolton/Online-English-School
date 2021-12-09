@@ -67,6 +67,7 @@ const TeacherCards = () => {
         <div className="teacher-card-grid">
             {cards.map((card) => (
                 <div className="teacher-card">
+                    
                     <div className="teacher-info">
                         {card.isOnline === true ? 
                             <div>
@@ -77,9 +78,10 @@ const TeacherCards = () => {
                     <div className="teacher-card-text">
                         <h3>From: {card.homeCountry}</h3>
                         <h4>Living in: {card.location}</h4>
-                         
                     </div>
+
                     <img className="teacher-img" src={card.profilePicture}></img>
+                    
                     <div className="teacher-card-bottom">
                         <p className="teacher-bio">{card.bio}</p>
                         {card.isOnline === true ? 
