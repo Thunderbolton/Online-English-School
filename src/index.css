@@ -594,9 +594,16 @@ button {
 
 .pricing-hero {
   display: flex;
+  flex-direction: column;
   width: 500px;
+  color: #fff;
   border: solid 2px red;
+  background-color: #3f4d79;
   margin: auto;
+}
+
+.pricing img {
+  width: 200px;
 }
 
 /* Footer */
