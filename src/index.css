@@ -576,7 +576,7 @@ button {
 
 .pricing {
   position: relative;
-  top: 170px;
+  top: 190px;
   overflow: hidden;
   /* height: 750px; */
   margin-bottom: 800px;
@@ -588,26 +588,40 @@ button {
   font-size: clamp(1.5rem, 2vw, 2rem);
   line-height: 2.3rem;
   margin: auto;
-  border: solid 2px red;
+  /* border: solid 2px red; */
   margin-bottom: 50px;
 }
 
 .pricing-hero {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   text-align: center;
-  line-height: 1.8rem;
+  line-height: 2.3rem;
   width: 80%;
   height: auto;
-  border: solid 2px red;
+  /* border: solid 2px red; */
+  background-color: snow;
   margin: auto;
 }
 
 .pricing img {
-  width: 300px;
+  width: 100%;
+  margin: 10px 0;
+  /* border: red solid 2px; */
+  background-color: #fff;
+}
+
+.pricing section {
+  width: 30%;
+  margin: 0 10px;
   border: red solid 2px;
+  border: #3f4d79 solid 2px;
+  border-radius: 25px;
   background-color: #3f4d79;
+  color: #fff;
+  font-size: clamp(0.8rem, 1.3vw, 1.5rem);
+  
 }
 
 /* Footer */
