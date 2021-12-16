@@ -600,6 +600,7 @@ button {
   line-height: 2.3rem;
   width: 80%;
   height: auto;
+  border-radius: 25px;
   /* border: solid 2px red; */
   background-color: snow;
   margin: auto;
@@ -615,13 +616,27 @@ button {
 .pricing section {
   width: 30%;
   margin: 0 10px;
-  border: red solid 2px;
-  border: #3f4d79 solid 2px;
+  /* border: red solid 2px; */
+  /* border: #3f4d79 solid 2px; */
   border-radius: 25px;
-  background-color: #3f4d79;
+  /* background-color: #3f4d79; */
   color: #fff;
   font-size: clamp(0.8rem, 1.3vw, 1.5rem);
-  
+}
+
+.pricing-starter {
+  background-color: #7280AC;
+  border: solid 2px #7280AC;
+}
+
+.pricing-regular {
+  background-color: #596793;
+  border: solid 2px #596793;
+}
+
+.pricing-prime {
+  background-color: #3f4d79;
+  border: solid 2px #3f4d79;
 }
 
 /* Footer */
