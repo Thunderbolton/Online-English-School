@@ -23,9 +23,9 @@ const Pricing = () => {
                     <img src={regular} alt="" />
                     <ul>
                         <li>laudantium omnis sapiente</li>
-                        <li>eveniet delectus unde voluptatibus sunt</li>
-                        <li>natus eaque consequuntur praesentium</li>
-                        <li>quam at vel maxime accusantium laborum</li>
+                        <li>eveniet delectus unde voluptatibus</li>
+                        <li>natus eaque consequuntur</li>
+                        <li>quam at vel maxime accusantium</li>
                     </ul>
                 </section>
                 <section className="pricing-prime">

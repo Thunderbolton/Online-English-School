@@ -585,7 +585,7 @@ button {
 .pricing-header {
   width: 60%;
   text-align: center;
-  font-size: clamp(1.5rem, 2vw, 2rem);
+  font-size: clamp(1.9rem, 2.3vw, 2.4rem);
   line-height: 2.3rem;
   margin: auto;
   /* border: solid 2px red; */
@@ -598,13 +598,15 @@ button {
   justify-content: space-around;
   text-align: center;
   line-height: 2.3rem;
-  width: 80%;
-  height: auto;
+  width: 85%;
+  max-height: 1900px;
   border-radius: 25px;
   /* border: solid 2px red; */
   background-color: snow;
   margin: auto;
 }
+
+
 
 .pricing img {
   width: 100%;
@@ -614,14 +616,14 @@ button {
 }
 
 .pricing section {
-  width: 30%;
-  margin: 0 10px;
+  max-width: 70%;
+  margin: 0 25px;
   /* border: red solid 2px; */
   /* border: #3f4d79 solid 2px; */
   border-radius: 25px;
   /* background-color: #3f4d79; */
   color: #fff;
-  font-size: clamp(0.8rem, 1.3vw, 1.5rem);
+  font-size: clamp(1rem, 1.4vw, 1.5rem);
 }
 
 .pricing-starter {
@@ -638,6 +640,16 @@ button {
   background-color: #3f4d79;
   border: solid 2px #3f4d79;
 }
+
+@media (max-width:800px) {
+  .pricing-hero {
+    flex-direction: column;
+  }
+  .pricing section {
+    margin: 30px 0;
+  };
+}
+
 
 /* Footer */
 
