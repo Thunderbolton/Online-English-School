@@ -618,12 +618,26 @@ button {
 .pricing section {
   max-width: 70%;
   margin: 0 25px;
+  padding: 10px 0;
   /* border: red solid 2px; */
   /* border: #3f4d79 solid 2px; */
   border-radius: 25px;
   /* background-color: #3f4d79; */
   color: #fff;
+  /* background-image: url('./img/menuIcon.svg'); */
+  /* font-size: clamp(1rem, 1.4vw, 1.5rem); */
+}
+
+/* .pricing section ul {
+  background-image: url('./img/menuIcon.svg');
+} */
+
+.pricing section li {
   font-size: clamp(1rem, 1.4vw, 1.5rem);
+  background-image: url('./img/tick.png');
+  background-position: 2% 50%;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
 }
 
 .pricing-starter {
