@@ -593,17 +593,17 @@ button {
 }
 
 .pricing-hero {
+  width: 80%;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
   text-align: center;
   line-height: 2.3rem;
-  width: 85%;
   max-height: 1900px;
   border-radius: 25px;
   /* border: solid 2px red; */
   background-color: snow;
-  margin: auto;
 }
 
 
@@ -616,8 +616,8 @@ button {
 }
 
 .pricing section {
-  max-width: 70%;
-  margin: 0 25px;
+  /* width: 80%; */
+  margin: 0 10px;
   padding: 10px 0;
   /* border: red solid 2px; */
   /* border: #3f4d79 solid 2px; */
@@ -628,14 +628,13 @@ button {
   /* font-size: clamp(1rem, 1.4vw, 1.5rem); */
 }
 
-/* .pricing section ul {
-  background-image: url('./img/menuIcon.svg');
-} */
 
 .pricing section li {
-  font-size: clamp(1rem, 1.4vw, 1.5rem);
+  text-align: left;
+  padding-left: 15%;
+  font-size: clamp(0.8rem, 1.2vw, 2rem);
   background-image: url('./img/tick.png');
-  background-position: 2% 50%;
+  background-position: 5% 50%; /* change to px */
   background-repeat: no-repeat;
   background-size: 15px 15px;
 }
@@ -655,13 +654,19 @@ button {
   border: solid 2px #3f4d79;
 }
 
-@media (max-width:800px) {
+@media (max-width:950px) {
   .pricing-hero {
     flex-direction: column;
+    width: 55%;
   }
   .pricing section {
     margin: 30px 0;
-  };
+  }
+  
+  .pricing section li {
+    font-size: 1rem;
+    background-size: 12px 12px;
+  }
 }
 
 

@@ -19,7 +19,7 @@ const PricingHero = () => {
                     <img src={regular} alt="" />
                     <ul>
                         <li>laudantium omnis sapiente</li>
-                        <li>eveniet delectus unde voluptatibus</li>
+                        <li>niet delectus unde voluptatibus</li>
                         <li>natus eaque consequuntur</li>
                         <li>quam at vel maxime accusantium</li>
                     </ul>
