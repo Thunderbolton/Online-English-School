@@ -13,6 +13,7 @@ const PricingHero = () => {
                         <li>consectetur adipisicing elit.</li>
                         <li>Expedita blanditiis odit dolorem</li>
                     </ul>
+                    <button className="pricing-btn">Join now</button>
                 </section>
                 <section className="pricing-regular">
                     <h2>Regular</h2>
@@ -23,6 +24,7 @@ const PricingHero = () => {
                         <li>natus eaque consequuntur</li>
                         <li>quam at vel maxime accusantium</li>
                     </ul>
+                    <button className="pricing-btn">Join now</button>
                 </section>
                 <section className="pricing-prime">
                     <h2>Prime</h2>
@@ -34,6 +36,7 @@ const PricingHero = () => {
                         <li>consectetur adipisicing elit.</li>
                         <li>Expedita blanditiis odit dolorem</li>
                     </ul>
+                    <button className="pricing-btn">Join now</button>
                 </section>
             </div>
  );

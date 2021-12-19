@@ -600,7 +600,7 @@ button {
   justify-content: space-around;
   text-align: center;
   line-height: 2.3rem;
-  max-height: 1900px;
+  max-height: 2300px;
   border-radius: 25px;
   /* border: solid 2px red; */
   background-color: snow;
@@ -639,6 +639,18 @@ button {
   background-size: 15px 15px;
 }
 
+.pricing-btn {
+  width: 80%;
+  margin-top: 7%;
+  padding: 0.5rem;
+  font-size: clamp(1rem, 1.4vw, 2rem);
+  color: white;
+  background-color: #3f4d79;
+  text-transform: uppercase;
+  border: #fff 1px solid; 
+  border-radius: 15px;
+}
+
 .pricing-starter {
   background-color: #7280AC;
   border: solid 2px #7280AC;
@@ -653,6 +665,8 @@ button {
   background-color: #3f4d79;
   border: solid 2px #3f4d79;
 }
+
+
 
 @media (max-width:950px) {
   .pricing-hero {
