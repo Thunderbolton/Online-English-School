@@ -600,13 +600,11 @@ button {
   justify-content: space-evenly;
   text-align: center;
   line-height: 2.3rem;
-  max-height: 2300px;
+  height: 725px;
   border-radius: 25px;
   /* border: solid 2px red; */
   background-color: snow;
 }
-
-
 
 .pricing img {
   width: 100%;
