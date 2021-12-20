@@ -593,11 +593,11 @@ button {
 }
 
 .pricing-hero {
-  width: 80%;
+  width: 100%;
   margin: auto;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: center;
   line-height: 2.3rem;
   max-height: 2300px;
@@ -616,7 +616,7 @@ button {
 }
 
 .pricing section {
-  /* width: 80%; */
+  width: 400px;
   margin: 0 10px;
   padding: 10px 0;
   /* border: red solid 2px; */
