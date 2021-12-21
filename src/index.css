@@ -579,7 +579,7 @@ button {
   top: 190px;
   overflow: hidden;
   /* height: 750px; */
-  margin-bottom: 800px;
+  margin-bottom: 600px;
 }
 
 .pricing-header {
@@ -601,9 +601,7 @@ button {
   text-align: center;
   line-height: 2.3rem;
   height: 725px;
-  border-radius: 25px;
   /* border: solid 2px red; */
-  background-color: snow;
 }
 
 .pricing img {
@@ -665,11 +663,11 @@ button {
 }
 
 
-
 @media (max-width:950px) {
   .pricing-hero {
     flex-direction: column;
     width: 55%;
+    margin-top: 630px;
   }
   .pricing section {
     margin: 30px 0;
@@ -679,6 +677,42 @@ button {
     font-size: 1rem;
     background-size: 12px 12px;
   }
+}
+
+.pricing-feedback {
+  height: 625px;
+  margin-top: 30px;
+  background-color: #3f4d79;
+  /* border: solid red 2px; */
+}
+
+.pricing-feedback-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing-feedback h2 {
+  text-align: center;
+  font-size: clamp(1.7rem, 2vw, 2rem);
+  padding-top: 15px;
+  color: #fff;
+}
+
+.pricing-feedback img {
+  max-width: 52rem;
+  min-width: 35rem;
+  background-color: #3f4d79;
+}
+
+@media (max-width:950px) {
+  .pricing-feedback {
+    margin-top: 650px;
+  }
+  .pricing-feedback img {
+    opacity: 0.2;
+  }
+
 }
 
 
