@@ -680,7 +680,7 @@ button {
 }
 
 .pricing-feedback {
-  height: 925px;
+  height: 900px;
   margin-top: 30px;
   background-color: #3f4d79;
   /* border: solid red 2px; */
@@ -694,14 +694,17 @@ button {
 
 .pricing-feedback h2 {
   text-align: center;
-  font-size: clamp(1.7rem, 2vw, 2rem);
-  padding-top: 15px;
+  font-size: clamp(1.9rem, 2.3vw, 2.4rem);
+  padding-top: 25px;
+  margin-bottom: 25px;
   color: #fff;
 }
 
 .pricing-feedback img {
-  max-width: 52rem;
-  min-width: 35rem;
+  position: absolute;
+  top: 1050px;
+  max-width: 62rem;
+  min-width: 45rem;
   background-color: #3f4d79;
 }
 
@@ -709,12 +712,16 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .pricing-quotes-lg {
-  width: 200px;
+  /* width: 60%; */
+  /* border: solid 2px red; */
   color: #fff;
-  padding: 20px;
+  padding: 30px;
+  font-size: clamp(1rem, 1.3vw, 2rem);
+  z-index: 2;
 }
 
 @media (max-width:950px) {
@@ -722,9 +729,21 @@ button {
     margin-top: 650px;
   }
   .pricing-feedback img {
-    opacity: 0.2;
+    opacity: 0.15;
+    top: 2200px;
   }
+}
 
+@media(max-width:700px) {
+  .pricing-quotes-container {
+    display: grid;
+    position: relative;
+    top: 50px;
+    left: 25px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.5rem;
+    z-index: 2;
+  }
 }
 
 

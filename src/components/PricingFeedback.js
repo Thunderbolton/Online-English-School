@@ -15,11 +15,10 @@ const PricingFeedback = () => {
         <div className="pricing-feedback">
             <h2>What our students are saying</h2>
 
-            {/* {screenWidth < 950 ? console.log("low") : console.log("high")}  Works */}
             <div className="pricing-quotes-container">
                 {quotes.map((quote) =>
                     <div className="pricing-quotes-lg" key={quote.id}>
-                        {quote.id > 2 ? <i class="fas fa-quote-left"></i> : <i class="fas fa-quote-right"></i>}
+                        {quote.id > 2 ? <i class="fas fa-quote-right"></i> : <i class="fas fa-quote-left"></i>}
                         <p>{quote.text}</p>
                     </div>        
                 )}
