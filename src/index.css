@@ -684,16 +684,9 @@ button {
 .pricing-feedback {
   height: 900px;
   position: relative;
-  /* margin-top: 30px; */
   background-color: #3f4d79;
   /* border: solid red 2px; */
 }
-
-/* .pricing-feedback-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 .pricing-feedback h2 {
   text-align: center;
@@ -704,11 +697,13 @@ button {
 }
 
 .pricing-feedback img {
-  position: absolute;
-  top: 15%;
-  left: 10px;
-  max-width: 60rem;
-  min-width: 45rem;
+  position: relative;
+  margin: auto;
+  display: block;
+  text-align: center;
+  width: 60rem;
+  bottom: 10%;
+  /* border: solid 2px red; */
   background-color: #3f4d79;
 }
 
@@ -723,8 +718,6 @@ button {
 }
 
 .pricing-quotes-lg {
-  /* width: 60%; */
-  /* border: solid 2px red; */
   color: #fff;
   padding: 30px;
   text-align: center;
@@ -736,23 +729,22 @@ button {
 @media (max-width:950px) {
   .pricing-feedback img {
     opacity: 0.15;
-    /* left: -50px; */
+    width: 100%;
+    bottom: 15%;
   }
 }
 
 @media(max-width:700px) {
   .pricing-quotes-container {
     display: grid;
-    /* position: relative;
-    top: 50px;
-    left: 25px; */
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0.5rem;
     z-index: 2;
   }
-  /* .pricing-feedback img {
-    right: 10%;
-  } */
+  .pricing-feedback img {
+    bottom: 35%;
+    width: 100%;
+  }
 }
 
 
