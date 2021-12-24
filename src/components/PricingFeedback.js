@@ -23,9 +23,8 @@ const PricingFeedback = () => {
                     </div>        
                 )}
             </div>
-            <div className="pricing-feedback-container">
-                <img src={feedback} alt="a woman adjusting a ratings slider" />
-            </div>
+
+            <img src={feedback} alt="a woman adjusting a ratings slider" />
         </div>
      );
 }
