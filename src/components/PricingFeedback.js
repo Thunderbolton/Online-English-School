@@ -6,7 +6,7 @@ const PricingFeedback = () => {
 
     const quotes = [
         {text: "The teachers are very thoughtful and kind. They have a good understanding of cultural differences.", id: 1},
-        {text: "I had a very fun time during my class. The teachers are good listeners and give me opportunity to speak lots.", id: 2},
+        {text: "I have a very fun time during my classes. The teachers are good listeners and give me opportunity to speak a lot.", id: 2},
         {text: "The tutors create a very friendly and easy-to-speak atmosphere. They will confirm the purpose of the class first, then proceed, and will answer your questions accurately.", id: 3},
         {text: "It was very relaxing to speak in English. I learnt many expressions. The lessons were very helpful as well.", id: 4},
     ]

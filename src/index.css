@@ -596,6 +596,7 @@ button {
   height: 725px;
   width: 100%;
   margin: auto;
+  margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -616,22 +617,17 @@ button {
   width: 400px;
   margin: 0 10px;
   padding: 10px 0;
-  /* border: red solid 2px; */
-  /* border: #3f4d79 solid 2px; */
   border-radius: 25px;
-  /* background-color: #3f4d79; */
   color: #fff;
-  /* background-image: url('./img/menuIcon.svg'); */
-  /* font-size: clamp(1rem, 1.4vw, 1.5rem); */
 }
 
 
 .pricing section li {
   text-align: left;
-  padding-left: 15%;
+  padding-left: 12%;
   font-size: clamp(0.8rem, 1.2vw, 2rem);
   background-image: url('./img/tick.png');
-  background-position: 5% 50%; /* change to px */
+  background-position: 5% 50%;
   background-repeat: no-repeat;
   background-size: 15px 15px;
 }
@@ -734,7 +730,7 @@ button {
   }
 }
 
-@media(max-width:700px) {
+@media(max-width:750px) {
   .pricing-quotes-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

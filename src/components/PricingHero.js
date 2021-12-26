@@ -9,9 +9,9 @@ const PricingHero = () => {
                     <h2>Starter</h2>
                     <img src={starter} alt="" />
                     <ul>
-                        <li>Lorem, ipsum dolor sit amet.</li>
-                        <li>consectetur adipisicing elit.</li>
-                        <li>Expedita blanditiis odit dolorem</li>
+                        <li>12 1-hour private lessons monthly</li>
+                        <li>IELTS, TOEIC, TOEFL exam preparation</li>
+                        <li>English level placement test</li>
                     </ul>
                     <button className="pricing-btn">Join now</button>
                 </section>
@@ -19,10 +19,10 @@ const PricingHero = () => {
                     <h2>Regular</h2>
                     <img src={regular} alt="" />
                     <ul>
-                        <li>laudantium omnis sapiente</li>
-                        <li>niet delectus unde voluptatibus</li>
-                        <li>natus eaque consequuntur</li>
-                        <li>quam at vel maxime accusantium</li>
+                        <li>18 1-hour private lessons monthly</li>
+                        <li>IELTS, TOEIC, TOEFL exam preparation</li>
+                        <li>English level placement test</li>
+                        <li><b>Business English course with certified professionals</b></li>
                     </ul>
                     <button className="pricing-btn">Join now</button>
                 </section>
@@ -30,11 +30,12 @@ const PricingHero = () => {
                     <h2>Prime</h2>
                     <img src={prime} alt="" />
                     <ul>
-                        <li>voluptates voluptas numquam sint</li>
-                        <li>quam at vel maxime accusantium</li>
-                        <li>Laboriosam similique velit</li>
-                        <li>consectetur adipisicing elit.</li>
-                        <li>Expedita blanditiis odit dolorem</li>
+                        <li>30 1-hour private lessons monthly</li>
+                        <li>IELTS, TOEIC, TOEFL exam preparation</li>
+                        <li>English level placement test</li>
+                        <li>Business English course with certified professionals</li>
+                        <li><b>Tailored curriculum designed by our study advisors</b></li>
+                        <li><b>Unlimited access to self-study activities</b></li>
                     </ul>
                     <button className="pricing-btn">Join now</button>
                 </section>
