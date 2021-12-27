@@ -426,17 +426,32 @@ button {
 
 .materials {
   position: relative;
-  top: 100px;
-  height: 90vh;
+  top: 200px;
+  /* height: 90vh; */
   margin-bottom: 600px; /* just to separate footer */
-  overflow: hidden;
+  padding-top: 100px;
+}
+
+.materials-header {
+  position: absolute;
+  width: 60%;
+  top: -40px;
+  font-size: clamp(1.8rem, 2.3vw, 2.4rem);
+  text-align: center;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  padding-bottom: 500px;
 }
 
 .materials-hero {
   display: flex;
+  height: 90vh;
   position: relative;
-  /* max-height: 50vh; */
+  overflow: hidden;
   max-width: 100%;
+  /* margin-bottom: 500px; */
 }
 
 .materials-hero-img {
