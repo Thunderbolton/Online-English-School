@@ -3,7 +3,7 @@ import MaterialsHero from "./MaterialsHero";
 const Materials = () => {
     return ( 
         <div className="materials">
-            <h1 className="materials-header">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem numquam fuga, saepe iure perferendis corporis?</h1>
+            <h1 className="materials-header">Our material focuses on engaging students and allows them to feel comfortable when taking lessons</h1>
             <MaterialsHero />
         </div>
      );
