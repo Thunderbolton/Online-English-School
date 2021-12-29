@@ -20,12 +20,12 @@ const NavLinks = () => {
                 </li>
                 <li>
                     <button id="register-button">
-                        <a href="/register">Register</a>
+                        <Link to="/register">Register</Link>
                     </button>    
                 </li>
                 <li>
                     <button id="login-button">    
-                        <a href="/login">Login</a>
+                        <Link to="/login">Login</Link>
                     </button>
                 </li>
         </ul> 

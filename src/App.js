@@ -1,9 +1,11 @@
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Register from "./components/Register";
+import Login from "./components/Login";
 import Teachers from "./components/Teachers";
-import Pricing from "./components/Pricing";
 import Materials from "./components/Materials";
+import Pricing from "./components/Pricing";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -14,6 +16,12 @@ const App = () => {
           <Switch>
             <Route exact path="/">
               <Home />
+            </Route>
+            <Route path="/register">
+              <Register />
+            </Route>
+            <Route path="/login">
+              <Login />
             </Route>
             <Route path="/teachers">
               <Teachers />
