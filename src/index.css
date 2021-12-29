@@ -428,7 +428,7 @@ button {
   position: relative;
   top: 200px;
   /* height: 90vh; */
-  margin-bottom: 600px; /* just to separate footer */
+  margin-bottom: 300px; /* just to separate footer */
   padding-top: 100px;
 }
 
@@ -525,7 +525,8 @@ button {
   display: none;
   height: 662px;
   width: 100vw;
-  margin-top: 50px;
+  
+  /* margin-top: 50px; */
   margin-left: 15%;  
 }
 
@@ -542,11 +543,11 @@ button {
 }
 
 #conversation-btn-sm {
-  margin-top: 140px;
+  margin-top: 170px;
 }
 
 #news-btn-sm {
-  margin-top: 70%;
+  margin-top: 65%;
 }
 
 .materials-hero p {
@@ -559,9 +560,12 @@ button {
   }
 }
 
-@media(max-width:800px) {
+@media(max-width:900px) {
   .materials {
     overflow: visible;
+  }
+  .materials-hero {
+    height: 1000px;
   }
   #conversation-img {
     transform: scale(1);
