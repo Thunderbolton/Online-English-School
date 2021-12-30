@@ -113,7 +113,27 @@ button {
     }
   }
 
+/* Register page */
 
+.register {
+  position: relative;
+  top: 130px;
+  /* overflow: hidden; */
+  margin-bottom: 700px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  min-width: 520px;
+  max-width: 650px;
+  margin: 0 auto;
+  border: solid red 2px;
+  padding: 20px;
+  
+  /* background-color: #3f4d79;
+  color: #fff; */
+}
 
 
 /* HOME MAIN CONTENT */  
