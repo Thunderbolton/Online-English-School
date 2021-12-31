@@ -117,31 +117,67 @@ button {
 
 .register {
   position: relative;
-  top: 130px;
+  top: 250px;
+  height: 85vh;
   /* overflow: hidden; */
-  margin-bottom: 700px;
+  margin-bottom: 300px;
 }
 
 .register-form {
   display: flex;
   flex-direction: column;
-  min-width: 520px;
   max-width: 650px;
-  margin: 0 auto;
-  border: solid red 2px;
+  height: 600px;
+  margin: auto;
   padding: 20px;
-  
-  /* background-color: #3f4d79;
-  color: #fff; */
+  color: #fff;
+  background-color: #3f4d79;
+  border-radius: 25px;
+  z-index: 10; /* To go infront of a background image */
 }
 
+.register h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.register-form input {
+  padding: 10px 0;
+  border: 3px solid #3f4d79;
+  border-radius: 10px;
+}
+
+.register-form button {
+  color: #fff;
+  background-color: lawngreen;
+  border: solid 3px green;
+  border-radius: 10px;
+  padding-top: 20px;
+  margin: 0;
+}
+
+.register-form-names {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* margin: 0 0.1em; */
+}
+
+@media (max-width:685px) {
+  .register-form {
+    width: 85%;
+  }
+  .register-form-names {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+}
 
 /* HOME MAIN CONTENT */  
   
 .hero {
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
   /* border: red 2px solid; */
   top: 108px;
   min-height: 90vh; 
