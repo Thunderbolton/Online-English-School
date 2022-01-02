@@ -22,7 +22,9 @@ const RegisterForm = () => {
                 <label>Confirm Password</label>
                 <input type="password" required/>
                 <br /><br />
-                <button>Submit</button>
+                <div className="register-form-submit">
+                    <button>Submit</button>
+                </div>
             </form>
         </div>
         
