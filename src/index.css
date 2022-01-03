@@ -118,10 +118,20 @@ button {
 
 .register {
   position: relative;
-  top: 180px;
-  height: 85vh;
-  /* overflow: hidden; */
-  margin-bottom: 300px;
+  top: 165px;
+  height: 110vh;
+  margin-bottom: 160px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.register img {
+  position: relative;
+  bottom: 930px;
+  right: 350px;
+  width: 2000px;
+  opacity: 0.6;
+  z-index: -1;
 }
 
 .register-form {
@@ -132,8 +142,9 @@ button {
   padding: 20px;
   color: #fff;
   background-color: #3f4d79;
+  border: solid 5px #333;
   border-radius: 25px;
-  z-index: 10; /* To go infront of a background image */
+  z-index: 10; /* To go infront of the background image */
 }
 
 .register h2 {

@@ -2,7 +2,7 @@ const RegisterForm = () => {
     return ( 
         <div>
             <form className="register-form">
-                <h2>Register Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, architecto!</h2>
+                <h2>Sign up in seconds and begin your English learning journey today!</h2>
                 <div className="register-form-names">
                     <label>First Name</label>
                     <input type="text" required/>
