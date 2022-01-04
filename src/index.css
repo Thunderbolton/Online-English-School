@@ -113,7 +113,6 @@ button {
     }
   }
 
-  
 /* Register page */
 
 .register {
@@ -185,6 +184,18 @@ button {
     width: 100%;
   }
 }
+
+
+/* Login Page */
+
+.login {
+  position: relative;
+  top: 100px;
+  margin-bottom: 150px;
+}
+
+
+
 
 /* HOME MAIN CONTENT */  
   

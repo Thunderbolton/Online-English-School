@@ -27,9 +27,6 @@ const RegisterForm = () => {
                 </div>
             </form>
         </div>
-        
-            
-        
      );
 }
  
