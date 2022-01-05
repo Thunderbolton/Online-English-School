@@ -1,7 +1,13 @@
+import Form from "./Form";
+
 const Login = () => {
     return ( 
         <div className="login">
-            <p>This is the login page</p>
+            <Form
+                heading="Log in to your account"
+                username="Username/Email" 
+                button="Log in"
+                />
         </div>
      );
 }

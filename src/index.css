@@ -113,6 +113,10 @@ button {
     }
   }
 
+
+.form-heading {
+  text-align: center;
+}  
 /* Register page */
 
 .register {
@@ -147,7 +151,6 @@ button {
 }
 
 .register h2 {
-  text-align: center;
   margin-bottom: 30px;
 }
 
