@@ -2,9 +2,9 @@ const Form = (props) => {
     
     return ( 
         <div>
-            <form className="register-form">
+            <form className="form">
                 <h2 className="form-heading">{props.heading}</h2>
-                <div className="register-form-names">
+                <div className="form-names">
                     <label>{props.firstName}</label>
                     {props.input} 
                     <label>{props.lastName}</label>
@@ -23,7 +23,7 @@ const Form = (props) => {
                 <label>{props.confirmPassword}</label>
                 {props.confirmPasswordInput}
                 <br /><br />
-                <div className="register-form-submit">
+                <div className="form-submit">
                     <button>{props.button}</button>
                 </div>
             </form>
