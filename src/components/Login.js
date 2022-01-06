@@ -7,6 +7,7 @@ const Login = () => {
                 heading="Log in to your account"
                 username="Username/Email" 
                 button="Log in"
+                subheading="Need an account? Register here"
                 />
         </div>
      );

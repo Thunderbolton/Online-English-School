@@ -26,6 +26,7 @@ const Form = (props) => {
                 <div className="form-submit">
                     <button>{props.button}</button>
                 </div>
+                <h3 className="form-subheading">{props.subheading}</h3>
             </form>
         </div>
      );

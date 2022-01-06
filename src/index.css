@@ -159,6 +159,13 @@ button {
   justify-content: space-around;
 }
 
+.form-subheading {
+  margin-top: 20px;
+  padding-top: 15px;
+  text-align: center;
+  border-top: #fff 1px solid;
+}
+
 @media (max-width:685px) {
   .form {
     width: 85%;
@@ -196,10 +203,9 @@ button {
 
 .login {
   position: relative;
-  top: 100px;
-  margin-bottom: 150px;
+  top: 165px;
+  margin-bottom: 350px;
 }
-
 
 
 
