@@ -264,12 +264,12 @@ button {
   text-align: center;
 } 
 
-.hero button {
+.hero-btn {
   /* width: 30%; */
   /* min-width: 20%; */
   /* max-width: 22vw; */
-  top: 60%; 
-  left: 30%;
+  /* top: 60%; 
+  left: 30%; */
   padding: 1.2em;
   white-space: nowrap; /* text will stay on one line */
   font-size: clamp(1rem, 1.5vw, 2.5rem);
