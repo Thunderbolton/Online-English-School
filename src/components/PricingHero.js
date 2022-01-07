@@ -1,8 +1,20 @@
+import { Link } from "react-router-dom";
 import starter from "../img/starter.svg"
 import regular from "../img/regular.svg"
 import prime from "../img/prime.svg"
 
 const PricingHero = () => {
+
+    const handleClick = () => {
+        {<Link to="/register"></Link>}
+    }
+
+    
+//     <Link to="/dashboard">
+//      <button type="button">
+//           Click Me!
+//      </button>
+//  </Link>
     return ( 
         <div className="pricing-hero">
                 <section className="pricing-starter">
@@ -13,7 +25,7 @@ const PricingHero = () => {
                         <li>IELTS, TOEIC, TOEFL exam preparation</li>
                         <li>English level placement test</li>
                     </ul>
-                    <button className="pricing-btn">Join now</button>
+                    <Link to="/register"><button className="pricing-btn">Join now</button></Link>
                 </section>
                 <section className="pricing-regular">
                     <h2>Regular</h2>
@@ -24,7 +36,7 @@ const PricingHero = () => {
                         <li>English level placement test</li>
                         <li><b>Business English course with certified professionals</b></li>
                     </ul>
-                    <button className="pricing-btn">Join now</button>
+                    <Link to="/register"><button className="pricing-btn">Join now</button></Link>
                 </section>
                 <section className="pricing-prime">
                     <h2>Prime</h2>
@@ -37,7 +49,7 @@ const PricingHero = () => {
                         <li><b>Tailored curriculum designed by our study advisors</b></li>
                         <li><b>Unlimited access to self-study activities</b></li>
                     </ul>
-                    <button className="pricing-btn">Join now</button>
+                    <Link to="/register"><button className="pricing-btn">Join now</button></Link>
                 </section>
             </div>
  );
