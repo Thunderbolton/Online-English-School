@@ -163,7 +163,11 @@ button {
   margin-top: 20px;
   padding-top: 15px;
   text-align: center;
+  color: #fff;
   border-top: #fff 1px solid;
+}
+.form-subheading a {
+  color: #fff;
 }
 
 @media (max-width:685px) {

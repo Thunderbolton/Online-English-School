@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
 import Form from "./Form";
 import register from "../img/register.svg"
 
 const Register = () => {
+
     return ( 
         <div className="register">
             <Form 
@@ -13,12 +15,12 @@ const Register = () => {
                 input={<input type="text" required></input>}
                 confirmPassword="Confirm password"
                 confirmPasswordInput={<input type="password" required/>}
-                button="Submit" />
+                button="Submit" 
+                subheading={<Link to="/login">Already have an account? Sign in <p style={{color: '#f018ad'}}>HERE</p></Link>}
+                />
             <img src={register} alt="" />
         </div>
      );
 }
  
 export default Register;
-
-// This is the parent component and i'll try to pass in props to the <RegisterForm /> component.
