@@ -140,6 +140,7 @@ button {
   padding: 10px 0;
   border: 3px solid #3f4d79;
   border-radius: 10px;
+  padding-left: 10px;
 }
 
 .form button {
