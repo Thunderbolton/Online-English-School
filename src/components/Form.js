@@ -1,8 +1,17 @@
+import { useHistory } from "react-router-dom";
+
 const Form = (props) => {
     
+    const history = useHistory();
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        history.push('/');
+    }
+
     return ( 
         <div>
-            <form className="form">
+            <form className="form" onSubmit={handleSubmit}>
                 <h2 className="form-heading">{props.heading}</h2>
                 <div className="form-names">
                     <label>{props.firstName}</label>
@@ -24,7 +33,7 @@ const Form = (props) => {
                 {props.confirmPasswordInput}
                 <br /><br />
                 <div className="form-submit">
-                    <button>{props.button}</button>
+                    <button type="submit">{props.button}</button>
                 </div>
                 <h3 className="form-subheading">{props.subheading}</h3>
             </form>
