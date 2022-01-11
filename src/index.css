@@ -658,7 +658,6 @@ button {
     margin-bottom: 75%;
   }
   .materials-hero {
-    border: solid 2px red;
     width: 100%;
     overflow: visible;
     height: 650px;
@@ -693,7 +692,7 @@ button {
   position: relative;
   top: 190px;
   overflow: hidden;
-  margin-bottom: 600px;
+  margin-bottom: 180px;
 }
 
 .pricing-header {
