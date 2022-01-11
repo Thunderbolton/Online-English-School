@@ -522,10 +522,10 @@ button {
 /* MATERIALS */
 
 .materials {
+  display: flex;
   position: relative;
   top: 200px;
-  /* height: 90vh; */
-  margin-bottom: 300px; /* just to separate footer */
+  margin-bottom: 250px; 
   padding-top: 100px;
 }
 
@@ -548,7 +548,6 @@ button {
   position: relative;
   overflow: hidden;
   max-width: 100%;
-  /* margin-bottom: 500px; */
 }
 
 .materials-hero-img {
@@ -579,7 +578,6 @@ button {
   right: 0%;
   top: 70px;
 }
-
 
 .materials-hero-info {
   display: flex;
@@ -622,8 +620,6 @@ button {
   display: none;
   height: 662px;
   width: 100vw;
-  
-  /* margin-top: 50px; */
   margin-left: 15%;  
 }
 
@@ -659,10 +655,13 @@ button {
 
 @media(max-width:900px) {
   .materials {
-    overflow: visible;
+    margin-bottom: 75%;
   }
   .materials-hero {
-    height: 1000px;
+    border: solid 2px red;
+    width: 100%;
+    overflow: visible;
+    height: 650px;
   }
   #conversation-img {
     transform: scale(1);
@@ -674,7 +673,7 @@ button {
   #news-img {
     transform: scale(1);
     width: 100%;
-    top: 120px;
+    top: 100px;
     left: 0;
     margin-top: 50%;
   }
