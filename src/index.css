@@ -714,13 +714,11 @@ button {
   justify-content: space-evenly;
   text-align: center;
   line-height: 2.3rem;
-  /* border: solid 2px red; */
 }
 
 .pricing img {
   width: 100%;
   margin: 10px 0;
-  /* border: red solid 2px; */
   background-color: #fff;
 }
 
@@ -795,7 +793,6 @@ button {
   height: 900px;
   position: relative;
   background-color: #3f4d79;
-  /* border: solid red 2px; */
 }
 
 .pricing-feedback h2 {
@@ -813,18 +810,14 @@ button {
   text-align: center;
   width: 60rem;
   bottom: 10%;
-  /* border: solid 2px red; */
   background-color: #3f4d79;
 }
 
 .pricing-quotes-container {
   display: flex;
-  /* align-items: center; */
-  /* justify-content: flex-end; */
   width: 90%;
   margin-left: 5%;
   text-align: center;
-  /* border: solid red 2px; */
 }
 
 .pricing-quotes-lg {
