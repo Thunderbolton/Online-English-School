@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/Online-English-School/static/css/main.40d1c686.chunk.css",
+    "main.js": "/Online-English-School/static/js/main.947502a6.chunk.js",
+    "main.js.map": "/Online-English-School/static/js/main.947502a6.chunk.js.map",
+    "runtime-main.js": "/Online-English-School/static/js/runtime-main.cbec2814.js",
+    "runtime-main.js.map": "/Online-English-School/static/js/runtime-main.cbec2814.js.map",
+    "static/js/2.33516e1f.chunk.js": "/Online-English-School/static/js/2.33516e1f.chunk.js",
+    "static/js/2.33516e1f.chunk.js.map": "/Online-English-School/static/js/2.33516e1f.chunk.js.map",
+    "index.html": "/Online-English-School/index.html",
+    "static/css/main.40d1c686.chunk.css.map": "/Online-English-School/static/css/main.40d1c686.chunk.css.map",
+    "static/js/2.33516e1f.chunk.js.LICENSE.txt": "/Online-English-School/static/js/2.33516e1f.chunk.js.LICENSE.txt",
+    "static/media/alex.23eecc4f.jpg": "/Online-English-School/static/media/alex.23eecc4f.jpg",
+    "static/media/anytime.d2e3c3d5.svg": "/Online-English-School/static/media/anytime.d2e3c3d5.svg",
+    "static/media/anyway.77568c50.gif": "/Online-English-School/static/media/anyway.77568c50.gif",
+    "static/media/anywhere.5ab5100b.svg": "/Online-English-School/static/media/anywhere.5ab5100b.svg",
+    "static/media/character 12.2e0877b4.svg": "/Online-English-School/static/media/character 12.2e0877b4.svg",
+    "static/media/character 18.7e7f9867.svg": "/Online-English-School/static/media/character 18.7e7f9867.svg",
+    "static/media/conversation-app-screenshot.b25e4cd8.PNG": "/Online-English-School/static/media/conversation-app-screenshot.b25e4cd8.PNG",
+    "static/media/emma.ef1eeab8.jpg": "/Online-English-School/static/media/emma.ef1eeab8.jpg",
+    "static/media/feedback.2678f02e.svg": "/Online-English-School/static/media/feedback.2678f02e.svg",
+    "static/media/grace.b4d07ec8.jpg": "/Online-English-School/static/media/grace.b4d07ec8.jpg",
+    "static/media/james.8426e1ba.jpg": "/Online-English-School/static/media/james.8426e1ba.jpg",
+    "static/media/john.bfe7f590.jpg": "/Online-English-School/static/media/john.bfe7f590.jpg",
+    "static/media/lily.f14f0d5b.jpg": "/Online-English-School/static/media/lily.f14f0d5b.jpg",
+    "static/media/menuIcon.e8db7520.svg": "/Online-English-School/static/media/menuIcon.e8db7520.svg",
+    "static/media/news-app-screenshot.b5403b27.PNG": "/Online-English-School/static/media/news-app-screenshot.b5403b27.PNG",
+    "static/media/prime.46ba5833.svg": "/Online-English-School/static/media/prime.46ba5833.svg",
+    "static/media/register.fc9fd9fc.svg": "/Online-English-School/static/media/register.fc9fd9fc.svg",
+    "static/media/regular.5fdc637a.svg": "/Online-English-School/static/media/regular.5fdc637a.svg",
+    "static/media/starter.2e46223f.svg": "/Online-English-School/static/media/starter.2e46223f.svg",
+    "static/media/teachers.675e34de.svg": "/Online-English-School/static/media/teachers.675e34de.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cbec2814.js",
+    "static/js/2.33516e1f.chunk.js",
+    "static/css/main.40d1c686.chunk.css",
+    "static/js/main.947502a6.chunk.js"
+  ]
+}
