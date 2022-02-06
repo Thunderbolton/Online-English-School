@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Online-English-School/static/css/main.40d1c686.chunk.css",
-    "main.js": "/Online-English-School/static/js/main.947502a6.chunk.js",
-    "main.js.map": "/Online-English-School/static/js/main.947502a6.chunk.js.map",
+    "main.js": "/Online-English-School/static/js/main.6b582287.chunk.js",
+    "main.js.map": "/Online-English-School/static/js/main.6b582287.chunk.js.map",
     "runtime-main.js": "/Online-English-School/static/js/runtime-main.cbec2814.js",
     "runtime-main.js.map": "/Online-English-School/static/js/runtime-main.cbec2814.js.map",
     "static/js/2.33516e1f.chunk.js": "/Online-English-School/static/js/2.33516e1f.chunk.js",
@@ -35,6 +35,6 @@
     "static/js/runtime-main.cbec2814.js",
     "static/js/2.33516e1f.chunk.js",
     "static/css/main.40d1c686.chunk.css",
-    "static/js/main.947502a6.chunk.js"
+    "static/js/main.6b582287.chunk.js"
   ]
 }
