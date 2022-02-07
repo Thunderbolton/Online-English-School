@@ -23,7 +23,7 @@ const Info = () => {
             <section className="infoBox3">
                 <div className="infoBoxtext">
                     <h1>Any way</h1>
-                    <h3>Enjoy full flexiblility of your English classes whether it's on a computer, tablet or smarthphone.</h3>
+                    <h3>Enjoy full flexiblility of your English classes whether it's on a computer, tablet or smartphone.</h3>
                 </div>    
                 <img src={anyway} alt="Alternating devices" />
             </section>

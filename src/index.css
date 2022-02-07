@@ -13,6 +13,8 @@
 button {
   cursor: pointer;
 }
+
+
 /* NAVIGATION */
 
 .navbar {
@@ -22,7 +24,6 @@ button {
   width: 100%;
   z-index: 99;
   min-height: 10vh;
-  /* border: red 2px solid; */
   background-color: #fff;
 }
 
@@ -66,6 +67,7 @@ button {
   border-radius: 30px;
   background-color: #3f4d79;
 }
+
 #register-button a {
   color: #fff;
   padding: 1.5em;
@@ -73,6 +75,7 @@ button {
 
 #login-button {
   border: #3f4d79 3px solid; 
+  color: #3f4d79;
   font-size: clamp(1rem, 1.1vw, 2rem);
   border-radius: 30px;
   background-color: #fff;
@@ -87,12 +90,15 @@ button {
   z-index: 10;
 }
 
+.mobile-buttons {
+  display: none;
+}
+
 @media(max-width:700px) {
     .navbar {
-      flex-direction: column;
-      /* border: red 2px solid; */
+      border-bottom: solid 2px #A6ACAF;
     }
-    .navbar li { /* the full screen nav links */
+    .navbar li { /* for hiding the full screen nav links */
       display: none;
     }
     .navbar img {
@@ -102,14 +108,32 @@ button {
       right: 20px;
       top: 20px;
     }
+
     .mobile-links {
       display: flex;
+      flex-direction: column;
       position: relative;
-      bottom: 15px;
-      /* flex-direction: column; */
-      margin-left: auto;
-      padding: 5px;
-      margin-right: 5px;
+      bottom: 5px;
+      margin-right: 25px;
+      padding: 7px;
+      border-left: solid 2px #3f4d79;
+    }
+
+    .mobile-buttons-container {
+      display: flex;
+    }
+
+    .mobile-buttons {
+      display: flex;
+      margin: 0 5px;
+      position: relative;
+      top: 65px;
+      right: 10%;
+    }
+
+    #register-button, #login-button {
+      font-size: clamp(0.9rem, 1.1vw, 2rem);
+      padding: 0.3em 0.5em;
     }
   }
 
