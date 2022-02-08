@@ -859,7 +859,6 @@ button {
 }
 
 
-
 @media(max-width:750px) {
   .pricing-quotes-container {
     display: grid;
@@ -872,6 +871,12 @@ button {
     opacity: 0.15;
     top: 220px;
     width: 100%;
+  }
+}
+
+@media(max-width:450px) {
+  .pricing section {
+    width: 300px;
   }
 }
 
