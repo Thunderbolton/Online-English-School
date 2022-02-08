@@ -553,7 +553,7 @@ button {
   position: absolute;
   width: 70%;
   top: -40px;
-  font-size: clamp(1.8rem, 2.3vw, 2.4rem);
+  font-size: clamp(1.6rem, 2.3vw, 2.4rem);
   text-align: center;
   left:0;
   right:0;
@@ -636,17 +636,19 @@ button {
   border-radius: 15px;
 }
 
-.materials-hero-info-btn-sm { /* buttons container */
-  display: none;
-  height: 662px;
-  width: 100vw;
-  margin-left: 15%;  
+/* buttons container */
+.materials-hero-info-btn-sm { 
+  /* display: none; */
+  /* height: 662px;
+  margin-left: 15%;   */
 }
 
+/* Styles to apply on smaller screens */
 .materials-hero-info-btn-sm button {
-  width: 80%;
-  padding: 15px;
-  font-size: clamp(0.8rem, 1.9vw, 5rem);
+  display: none;
+  width: 100%;
+  padding: 10px;
+  font-size: clamp(0.7rem, 1.9vw, 5rem);
   color: #fff;
   background-color: #3f4d79;
   text-transform: uppercase;
@@ -655,17 +657,19 @@ button {
   border-radius: 15px;
 }
 
-#conversation-btn-sm {
+/* #conversation-btn-sm {
   margin-top: 170px;
+  display: none;
 }
 
 #news-btn-sm {
-  margin-top: 65%;
-}
+  display: none;
+} */
 
 .materials-hero p {
   padding: 15px;
 }
+
 
 @media (max-width:950px){
   .materials-hero-info {
@@ -674,6 +678,7 @@ button {
 }
 
 @media(max-width:900px) {
+  
   .materials {
     margin-bottom: 75%;
   }
@@ -682,6 +687,11 @@ button {
     overflow: visible;
     height: 650px;
   }
+
+  .materials-hero-info {
+    display: none;
+  }
+
   #conversation-img {
     transform: scale(1);
     width: 100%;
@@ -696,13 +706,37 @@ button {
     left: 0;
     margin-top: 50%;
   }
-  .materials-hero-info {
-    display: none;
-  }
-  .materials-hero-info-btn-sm {
+
+  /* .materials-hero-info-btn-sm {
+    display: block;
+    margin-left: 15%;
+    height: 662px;
+    margin-left: 15%;
+    position: absolute;
+    top: 40px;
+    width: 80%; 
+    border: solid 2px red;
+  } */
+  
+  #conversation-btn-sm {
+    margin-top: 35%;
+    width: 100%;
+    position: absolute;
     display: block;
   }
   
+  #news-btn-sm {
+    margin-top: 100%;
+    position: absolute;
+    display: block;
+  }
+
+  /* .materials-hero-info-btn-sm button {
+    display: block;
+    position: absolute;
+    margin-left: 20px;
+  } */
+
 }
 
 
