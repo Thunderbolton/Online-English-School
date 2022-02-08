@@ -397,10 +397,6 @@ button {
   .infoBox1 img, .infoBox2 img {
     width: 100%;
   }
-  /* .infoBox2 {
-    flex-direction: column;
-    align-items: center;
-  } */
 }
 
 
@@ -792,29 +788,7 @@ button {
   border: solid 2px #3f4d79;
 }
 
-
-@media (max-width:950px) {
-  .pricing-header {
-    padding-bottom: 80px;
-  }
-  .pricing-hero {
-    flex-direction: column;
-    width: 55%;
-    margin-top: 630px;
-    margin-bottom: 700px;
-  }
-  .pricing section {
-    margin: 30px 0;
-  }
-  
-  .pricing section li {
-    font-size: 1rem;
-    background-size: 12px 12px;
-  }
-}
-
 .pricing-feedback {
-  height: 900px;
   position: relative;
   background-color: #3f4d79;
 }
@@ -827,13 +801,15 @@ button {
   color: #fff;
 }
 
+
+/* What our students are saying */
+
 .pricing-feedback img {
   position: relative;
   margin: auto;
   display: block;
-  text-align: center;
-  width: 60rem;
-  bottom: 10%;
+  width: 80%;
+  bottom: 100px;
   background-color: #3f4d79;
 }
 
@@ -853,13 +829,36 @@ button {
   
 }
 
+
 @media (max-width:950px) {
+  
+  .pricing-header {
+    padding-bottom: 80px;
+  }
+
+  .pricing-hero {
+    flex-direction: column;
+    width: 55%;
+    margin-top: 630px;
+    margin-bottom: 700px;
+  }
+
+  .pricing section {
+    margin: 30px 0;
+  }
+
+  .pricing section li {
+    font-size: 1rem;
+    background-size: 12px 12px;
+  }
+
   .pricing-feedback img {
-    opacity: 0.15;
     width: 100%;
-    bottom: 15%;
+    /* bottom: 15%; */
   }
 }
+
+
 
 @media(max-width:750px) {
   .pricing-quotes-container {
@@ -869,7 +868,9 @@ button {
     z-index: 2;
   }
   .pricing-feedback img {
-    bottom: 35%;
+    position: absolute;
+    opacity: 0.15;
+    top: 220px;
     width: 100%;
   }
 }
