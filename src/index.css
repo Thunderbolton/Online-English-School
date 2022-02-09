@@ -552,20 +552,20 @@ button {
 .materials-header {
   position: absolute;
   width: 70%;
-  top: -40px;
-  font-size: clamp(1.6rem, 2.3vw, 2.4rem);
+  top: -80px;
+  font-size: clamp(1.5rem, 2.2vw, 2.3rem);
   text-align: center;
   left:0;
   right:0;
   margin-left:auto;
   margin-right:auto;
-  padding-bottom: 500px;
 }
 
 .materials-hero {
   display: flex;
   height: 90vh;
   position: relative;
+  top: -30px;
   overflow: hidden;
   max-width: 100%;
 }
@@ -636,12 +636,6 @@ button {
   border-radius: 15px;
 }
 
-/* buttons container */
-.materials-hero-info-btn-sm { 
-  /* display: none; */
-  /* height: 662px;
-  margin-left: 15%;   */
-}
 
 /* Styles to apply on smaller screens */
 .materials-hero-info-btn-sm button {
@@ -657,67 +651,45 @@ button {
   border-radius: 15px;
 }
 
-/* #conversation-btn-sm {
-  margin-top: 170px;
-  display: none;
-}
-
-#news-btn-sm {
-  display: none;
-} */
-
 .materials-hero p {
   padding: 15px;
 }
 
-
-@media (max-width:950px){
-  .materials-hero-info {
-    width: 25%;
-  }
-}
-
 @media(max-width:900px) {
-  
+
   .materials {
     margin-bottom: 75%;
+  }
+
+  .materials-header {
+    top: -70px;
   }
   .materials-hero {
     width: 100%;
     overflow: visible;
-    height: 650px;
+    max-height: 82vh;
+    top: -100px;
   }
 
   .materials-hero-info {
     display: none;
   }
 
-  #conversation-img {
+  #conversation-img, #news-img {
     transform: scale(1);
     width: 100%;
+  }
+
+  #conversation-img {
     top: 50px;
     right: 0;
-    left: 0;
   }
+
   #news-img {
-    transform: scale(1);
-    width: 100%;
     top: 100px;
-    left: 0;
     margin-top: 50%;
   }
 
-  /* .materials-hero-info-btn-sm {
-    display: block;
-    margin-left: 15%;
-    height: 662px;
-    margin-left: 15%;
-    position: absolute;
-    top: 40px;
-    width: 80%; 
-    border: solid 2px red;
-  } */
-  
   #conversation-btn-sm {
     margin-top: 35%;
     width: 100%;
@@ -730,14 +702,15 @@ button {
     position: absolute;
     display: block;
   }
-
-  /* .materials-hero-info-btn-sm button {
-    display: block;
-    position: absolute;
-    margin-left: 20px;
-  } */
-
 }
+
+@media(max-width:410px) {
+
+  .materials-header {
+    font-size: 1.3rem;
+  }
+}
+
 
 
 /* Pricing */
