@@ -408,28 +408,37 @@ button {
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 185px;
+  top: 105px;
   margin-bottom: 230px;
+  overflow-x: hidden;
+  /* border: 2px solid red; */
 }
 
 .teachers-hero-heading {
-  margin-top: -25px;
   text-align: center;
+  /* margin-top: -30px; */
 }
 
 .teachers-hero-img {
-  width: 65rem;
+  width: 100%;
+  max-width: 1100px;
   /* border: solid 2px red; */
   z-index: -1;
-  margin-top: -70px;
+  margin-top: -50px;
 }
 
-@media (max-width:735px) {
-  .teachers-hero-img {
-    width: 30rem;
-    margin-top: 30px;
-  }  
+@media (max-width:800px) {
+
+  .teachers {
+    top: 160px;
+  }
+
+  .teachers-hero-heading {
+    margin-bottom: 25px;
+  }
+ 
 }
+
 
 .teachers-hero-subheading {
   text-align: center;
@@ -555,10 +564,9 @@ button {
   top: -80px;
   font-size: clamp(1.5rem, 2.2vw, 2.3rem);
   text-align: center;
-  left:0;
-  right:0;
-  margin-left:auto;
-  margin-right:auto;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .materials-hero {
