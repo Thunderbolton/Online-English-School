@@ -10,6 +10,10 @@
   font-family: 'Lato', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 button {
   cursor: pointer;
 }
@@ -242,33 +246,30 @@ button {
   
 .hero {
   display: flex;
-  /* border: red 2px solid; */
   top: 108px;
   min-height: 90vh; 
-  width: 100%; /* All of the screen across */
-  /* margin: 0 auto; */
+  width: 100%;
   position: relative; /* So that elements inside can be positioned absolutely within it */
 }
 
-.hero > * { /* this selects all children within it */
+.hero > * { /* to select all children within it */
   position: absolute;
 }
 
-
+/* Right image */
 .hero img:nth-child(1) {
   width: 300px;
   height: 75%;
   top: 25%;
   right: 10px;
-  /* border: red 2px solid; */
 }
 
+/* Left image */
 .hero img:nth-child(2) {
   width: 300px;
   height: 75%;
   bottom: 30%;
   left: 10px;
-  /* border: red 2px solid; */
   transform: scaleX(-1);
 }
 
@@ -276,32 +277,46 @@ button {
   width: 100%;
   top: 22%;
   font-size: clamp(3rem, 5vw, 5rem);
-  /* border: red 2px solid; */
   text-align: center;
 }
 
 .hero h2 {
   width: 100%;
-  top: 40%;
+  top: 45%;
   font-weight: 100;
   font-size: clamp(2rem, 3vw, 5rem);
-  /* border: red 2px solid; */
   text-align: center;
 } 
 
-.hero-btn {
-  /* width: 30%; */
-  /* min-width: 20%; */
-  /* max-width: 22vw; */
-  /* top: 60%; 
-  left: 30%; */
-  padding: 1.2em;
-  white-space: nowrap; /* text will stay on one line */
-  font-size: clamp(1rem, 1.5vw, 2.5rem);
+.hero-btns {
+  display: flex;
+  width: 100%;
+  position: relative;
+  right: 2em;
+  justify-content: center;
+  align-items: center;
+  top: 130px;
+  margin: auto;
+}
+
+.hero-btn-left {
+  padding: 1.4em;
+  margin: 0 2em;
+  white-space: nowrap;
+  font-size: clamp(0.9rem, 1.5vw, 2.5rem);
   border: #3f4d79 2px solid;
   border-radius: 30px;
   background-color: #3f4d79;
   color: #fff;
+}
+
+.hero-btn-right {
+  padding: 1.4em;
+  border: #3f4d79 3px solid; 
+  color: #3f4d79;
+  font-size: clamp(0.9rem, 1.5vw, 2.5rem);
+  border-radius: 30px;
+  background-color: #fff;
 }
 
 @media(max-width:900px) {
@@ -316,29 +331,32 @@ button {
 }
 
 @media(max-width:600px) {
-  .hero img:nth-child(1) {
-    opacity: 0.4;
-    width: 200px;
-  }
-  .hero img:nth-child(2) {
+
+  .hero img:nth-child(1), .hero img:nth-child(2) {
     opacity: 0.4;
     width: 200px;
   }
 }
 
+@media(max-width:360px) {
+  .hero-btns {
+    right: 0.5em;
+  }
+  .hero-btn-left, .hero-btn-right {
+    font-size: 0.7rem;
+  }
+}
+
 .infoContainer {
   position: relative;
-  /* display: flex; */
   flex-direction: column;
   width: 100%;
-  /* border: 2px solid blue; */
   top: 100px;
   border-top: 100px solid #3f4d79;
 }
 
 .infoContainer > * {
   min-height: 60vh;
-  /* border: 2px solid red; */
 }
 
 .infoContainer section {
@@ -386,7 +404,6 @@ button {
 }
 .infoBox3 img {
   max-width: 20rem;
-  /* border: red 2px solid; */
 }
 
 @media (max-width:700px) {

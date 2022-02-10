@@ -5,7 +5,7 @@ import anyway from "../img/anyway.gif"
 
 const Info = () => {
     return (
-        <div className="infoContainer">
+        <div className="infoContainer" id="more-info">
             <section className="infoBox1">
                 <div className="infoBoxtext">
                     <h1>Any time</h1>
