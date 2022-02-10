@@ -14,7 +14,7 @@ const TeacherCards = () => {
             location: "Tokyo, Japan",
             homeCountry: "UK",
             profilePicture: james,
-            bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, consequatur nisi dolores aspernatur alias cum voluptatum dicta. Excepturi, ipsam",
+            bio: "Hey, I'm James and I'm from Nottingham, UK. I've been happily teaching in Tokyo for 4 years and I will be glad to help you with your English. I hope we can connect soon.",
             isOnline: true
         },
         {
@@ -23,7 +23,7 @@ const TeacherCards = () => {
             homeCountry: "USA",
             interests: "",
             profilePicture: lily,
-            bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, consequatur nisi dolores aspernatur alias cum voluptatum dicta. Excepturi, ipsam",
+            bio: "Hi! It's nice to meet you - my name is Olivia. Currently I'm in New York but I was born on the West Coast, in Los Angeles. I like working with all students and hope to meet you soon!",
             isOnline: true
         },
         {
@@ -32,25 +32,25 @@ const TeacherCards = () => {
             homeCountry: "New Zealand",
             interests: "",
             profilePicture: alex,
-            bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, consequatur nisi dolores aspernatur alias cum consectetur adipisicing elit",
+            bio: "Hi, my name is Alex and my home country is New Zealand. My hobbies are playing guitar, attending rock music concerts and gaming. I'll look forward to seeing you in my class soon!",
             isOnline: false
         },
         {
             name: "Emma",
-            location: "Tokyo, Japan",
+            location: "Barcelona, Spain",
             homeCountry: "UK",
             interests: "",
             profilePicture: emma,
-            bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, consequatur nisi dolores aspernatur alias cum voluptatum dicta. Excepturi, ipsam sunt adipisci repellendus",
+            bio: "Hi there, I'm Emma and I'm from London. Right now I'm living in Spain, in the wonderful city of Barcelona. I graduated with a degree in English Literature and I would love to talk with you about books.",
             isOnline: true
         },
         {
             name: "John",
-            location: "New York, USA",
-            homeCountry: "USA",
+            location: "Vancouver",
+            homeCountry: "Canada",
             interests: "",
             profilePicture: john,
-            bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, consequatur nisi dolores aspernatur alias cum voluptatum dicta nisi dolores aspernatur nisi dolores.",
+            bio: "Hello, my name is John and I'm a Professor of English language in Vancouver. Having spent years around Asia teaching English as a foreign language, I'm welcome to all kinds of students.",
             isOnline: false
         },
         {
@@ -59,7 +59,7 @@ const TeacherCards = () => {
             homeCountry: "USA",
             interests: "",
             profilePicture: grace,
-            bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, consequatur nisi dolores aspernatur alias cum voluptatum dicta. Excepturi, ipsam sunt adipisci repellendus",
+            bio: "Hi! I'm Grace. I have been teaching English online since 2019, and I love it. I'm excited to meet you soon and I'd like to help you become comfortable and confident when speaking English.",
             isOnline: true
         },
     ]

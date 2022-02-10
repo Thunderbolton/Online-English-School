@@ -474,7 +474,7 @@ button {
 .teacher-card {
   border: solid 2px #3f4d79;
   border-radius: 25px;
-  height: 650px;
+  height: 660px;
   margin: 15px;
   background-color: snow;
   /* box-shadow: 5px 10px #888888; */
@@ -529,14 +529,15 @@ button {
 
 .teacher-bio {
   padding: 2%;
+  line-height: 1.5rem;
   text-align: center;
 }
 
 .teacher-select-btn {
   width: 80%;
   margin: auto;
-  margin-top: 13%;
-  padding: 0.3rem;
+  margin-top: 5%;
+  padding: 0.2rem;
   font-size: clamp(0.9rem, 1.1vw, 2rem);
   color: white;
   background-color: #3f4d79;
@@ -561,6 +562,12 @@ button {
   }
   .teacher-select-btn {
     font-size: 1.3rem;
+  }
+}
+
+@media(max-width:400px) {
+  .teacher-select-btn {
+    font-size: 0.8rem;
   }
 }
 
