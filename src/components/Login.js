@@ -9,7 +9,7 @@ const Login = () => {
                 heading="Log in to your account"
                 username="Username/Email" 
                 button="Log in"
-                subheading={<Link to="/register">Need an account? Register <p style={{color: '#f018ad'}}>HERE</p></Link>}
+                subheading={<Link to="/Online-English-School/register">Need an account? Register <p style={{color: '#f018ad'}}>HERE</p></Link>}
                 
                 />
         </div>

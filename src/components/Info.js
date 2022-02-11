@@ -9,7 +9,7 @@ const Info = () => {
             <section className="infoBox1">
                 <div className="infoBoxtext">
                     <h1>Any time</h1>
-                    <h3>Arrange your lesson schedule around you. We have teachers online at all times. Meet some of our teachers {<Link to="/teachers"><p style={{color: '#3f4d79'}}>here.</p></Link>}</h3>
+                    <h3>Arrange your lesson schedule around you. We have teachers online at all times. Meet some of our teachers {<Link to="/Online-English-School/teachers"><p style={{color: '#3f4d79'}}>here.</p></Link>}</h3>
                 </div>
                 <img src={anytime} alt="A man standing with a calendar and a clock" />
             </section>

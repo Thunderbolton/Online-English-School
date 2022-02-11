@@ -16,7 +16,7 @@ const Register = () => {
                 confirmPassword="Confirm password"
                 confirmPasswordInput={<input type="password" required/>}
                 button="Submit" 
-                subheading={<Link to="/login">Already have an account? Sign in <p style={{color: '#f018ad'}}>HERE</p></Link>}
+                subheading={<Link to="/Online-English-School/login">Already have an account? Sign in <p style={{color: '#f018ad'}}>HERE</p></Link>}
                 />
             <img src={register} alt="" />
         </div>

@@ -14,22 +14,22 @@ const App = () => {
       <div className="App">
         <Navbar />
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/Online-English-School">
               <Home />
             </Route>
-            <Route path="/register">
+            <Route path="/Online-English-School/register">
               <Register />
             </Route>
-            <Route path="/login">
+            <Route path="/Online-English-School/login">
               <Login />
             </Route>
-            <Route path="/teachers">
+            <Route path="/Online-English-School/teachers">
               <Teachers />
             </Route>
-            <Route path="/materials">
+            <Route path="/Online-English-School/materials">
               <Materials />
             </Route>
-            <Route path="/pricing">
+            <Route path="/Online-English-School/pricing">
               <Pricing />
             </Route>
           </Switch> 
