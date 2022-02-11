@@ -6,7 +6,7 @@ const Form = (props) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        history.push('/');
+        history.push('/Online-English-School');
     }
 
     return ( 

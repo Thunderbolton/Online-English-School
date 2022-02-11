@@ -5,6 +5,10 @@ import prime from "../img/prime.svg"
 
 const PricingHero = () => {
 
+    const scrollToTop = () => {
+        window.scrollTo(0, 0);
+    }
+
     return ( 
         <div className="pricing-hero">
                 <section className="pricing-starter">
@@ -15,7 +19,7 @@ const PricingHero = () => {
                         <li>IELTS, TOEIC, TOEFL exam preparation</li>
                         <li>English level placement test</li>
                     </ul>
-                    <Link to="/Online-English-School/register"><button className="pricing-btn">Join now</button></Link>
+                    <Link to="/Online-English-School/register" onClick={scrollToTop}><button className="pricing-btn">Join now</button></Link>
                 </section>
                 <section className="pricing-regular">
                     <h2>Regular</h2>
@@ -26,7 +30,7 @@ const PricingHero = () => {
                         <li>English level placement test</li>
                         <li><b>Business English course with certified professionals</b></li>
                     </ul>
-                    <Link to="/Online-English-School/register"><button className="pricing-btn">Join now</button></Link>
+                    <Link to="/Online-English-School/register" onClick={scrollToTop}><button className="pricing-btn">Join now</button></Link>
                 </section>
                 <section className="pricing-prime">
                     <h2>Prime</h2>
@@ -39,7 +43,7 @@ const PricingHero = () => {
                         <li><b>Tailored curriculum designed by our study advisors</b></li>
                         <li><b>Unlimited access to self-study activities</b></li>
                     </ul>
-                    <Link to="/Online-English-School/register"><button className="pricing-btn">Join now</button></Link>
+                    <Link to="/Online-English-School/register" onClick={scrollToTop}><button className="pricing-btn">Join now</button></Link>
                 </section>
             </div>
  );

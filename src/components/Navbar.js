@@ -15,10 +15,14 @@ const Navbar = () => {
         setShowMenu(!showMenu);
     }
 
+    const scrollToTop = () => {
+        window.scrollTo(0, 0);
+    }
+
         
     return (    
         <nav className="navbar">
-            <Link to="/Online-English-School">
+            <Link to="/Online-English-School" onClick={scrollToTop}>
                 <h1>Online English School</h1>
             </Link>    
             
