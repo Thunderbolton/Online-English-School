@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Online-English-School/static/css/main.40d1c686.chunk.css",
-    "main.js": "/Online-English-School/static/js/main.6b582287.chunk.js",
-    "main.js.map": "/Online-English-School/static/js/main.6b582287.chunk.js.map",
+    "main.css": "/Online-English-School/static/css/main.7ec3ec6a.chunk.css",
+    "main.js": "/Online-English-School/static/js/main.5b52f790.chunk.js",
+    "main.js.map": "/Online-English-School/static/js/main.5b52f790.chunk.js.map",
     "runtime-main.js": "/Online-English-School/static/js/runtime-main.cbec2814.js",
     "runtime-main.js.map": "/Online-English-School/static/js/runtime-main.cbec2814.js.map",
     "static/js/2.33516e1f.chunk.js": "/Online-English-School/static/js/2.33516e1f.chunk.js",
     "static/js/2.33516e1f.chunk.js.map": "/Online-English-School/static/js/2.33516e1f.chunk.js.map",
     "index.html": "/Online-English-School/index.html",
-    "static/css/main.40d1c686.chunk.css.map": "/Online-English-School/static/css/main.40d1c686.chunk.css.map",
+    "static/css/main.7ec3ec6a.chunk.css.map": "/Online-English-School/static/css/main.7ec3ec6a.chunk.css.map",
     "static/js/2.33516e1f.chunk.js.LICENSE.txt": "/Online-English-School/static/js/2.33516e1f.chunk.js.LICENSE.txt",
     "static/media/alex.23eecc4f.jpg": "/Online-English-School/static/media/alex.23eecc4f.jpg",
     "static/media/anytime.d2e3c3d5.svg": "/Online-English-School/static/media/anytime.d2e3c3d5.svg",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.cbec2814.js",
     "static/js/2.33516e1f.chunk.js",
-    "static/css/main.40d1c686.chunk.css",
-    "static/js/main.6b582287.chunk.js"
+    "static/css/main.7ec3ec6a.chunk.css",
+    "static/js/main.5b52f790.chunk.js"
   ]
 }
