@@ -34,18 +34,18 @@ const Navbar = () => {
 
             <div>
                 {showMenu && mobileMenu.map((item, index) =>
-                    <Link to={item} className="mobile-links" key={index}> 
+                    <Link to={`/Online-English-School/${item}`} className="mobile-links" key={index}> 
                         <h3>{item}</h3>
                     </Link>    
                 )}
             </div>
             
             <div className="mobile-buttons-container">
-                {showMenu && <Link to={MobileMenuButtons[0]} className="mobile-buttons">
+                {showMenu && <Link to={`/Online-English-School/${MobileMenuButtons[0]}`} className="mobile-buttons">
                         <h4 id="register-button">{MobileMenuButtons[0]}</h4>
                     </Link>}
         
-                {showMenu && <Link to={MobileMenuButtons[1]} className="mobile-buttons">
+                {showMenu && <Link to={`/Online-English-School/${MobileMenuButtons[1]}`} className="mobile-buttons">
                         <h4 id="login-button">{MobileMenuButtons[1]}</h4>
                     </Link>}
             </div>
