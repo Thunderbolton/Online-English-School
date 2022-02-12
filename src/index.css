@@ -246,10 +246,13 @@ button {
   
 .hero {
   display: flex;
-  top: 108px;
+  top: 70px;
   min-height: 90vh; 
   width: 100%;
   position: relative; /* So that elements inside can be positioned absolutely within it */
+  background-image: url("./img/OES2patternpad.svg");
+  background-size: 10000px;
+  background-position: 50% 50%;
 }
 
 .hero > * { /* to select all children within it */
@@ -268,7 +271,7 @@ button {
 .hero img:nth-child(2) {
   width: 300px;
   height: 75%;
-  bottom: 30%;
+  bottom: 25%;
   left: 10px;
   transform: scaleX(-1);
 }
@@ -351,7 +354,7 @@ button {
   position: relative;
   flex-direction: column;
   width: 100%;
-  top: 100px;
+  top: 70px;
   border-top: 100px solid #3f4d79;
 }
 
@@ -413,6 +416,9 @@ button {
   }
   .infoBox1 img, .infoBox2 img {
     width: 100%;
+  }
+  .infoBox2 h1 {
+    padding-top: 25px;
   }
 }
 
