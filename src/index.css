@@ -355,7 +355,7 @@ button {
   flex-direction: column;
   width: 100%;
   top: 70px;
-  border-top: 100px solid #3f4d79;
+  border-top: 20px solid #3f4d79;
 }
 
 .infoContainer > * {
