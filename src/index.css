@@ -45,7 +45,6 @@ button {
 .navbar h1 {
   margin: 20px;
   color: #3f4d79;
-  /* border: red solid 2px; */
 }
 
 .navbar h3 {
@@ -64,7 +63,6 @@ button {
 }
 
 #register-button {
-  /* border: solid 2px red; */
   border: #3f4d79 3px solid; 
   color: white;
   font-size: clamp(1rem, 1.1vw, 2rem);
@@ -141,7 +139,8 @@ button {
     }
   }
 
-/* Form component */
+
+/* FORM COMPONENT */
 
 .form {
   display: flex;
@@ -211,7 +210,7 @@ button {
 }
 
 
-/* Register page */
+/* REGISTER */
 
 .register {
   position: relative;
@@ -232,7 +231,7 @@ button {
 }
 
 
-/* Login Page */
+/* LOGIN */
 
 .login {
   position: relative;
@@ -434,24 +433,20 @@ button {
   top: 105px;
   margin-bottom: 230px;
   overflow-x: hidden;
-  /* border: 2px solid red; */
 }
 
 .teachers-hero-heading {
   text-align: center;
-  /* margin-top: -30px; */
 }
 
 .teachers-hero-img {
   width: 100%;
   max-width: 1100px;
-  /* border: solid 2px red; */
   z-index: -1;
   margin-top: -50px;
 }
 
 @media (max-width:800px) {
-
   .teachers {
     top: 160px;
   }
@@ -461,7 +456,6 @@ button {
   }
  
 }
-
 
 .teachers-hero-subheading {
   text-align: center;
@@ -483,7 +477,6 @@ button {
   height: 660px;
   margin: 15px;
   background-color: snow;
-  /* box-shadow: 5px 10px #888888; */
 }
 .teacher-card-name {
   padding: 10px;
@@ -494,12 +487,9 @@ button {
   padding: 10px;
   line-height: 1.5;
   text-align: center;
-  /* border: solid 2px red; */
 }
 
 .teacher-img {
-  /* width: 100%;
-  min-height: 20rem; */
   width: 100%;
   height: 300px;
   object-fit: cover;
@@ -615,7 +605,6 @@ button {
   right: 46%;
   border: #3f4d79 solid 2px;
   transform: scale(2) rotate(315deg);
-  /* opacity: 0.4; */
   filter: contrast(40%);
 }
 .materials-hero-info-highlight {
@@ -694,7 +683,6 @@ button {
 }
 
 @media(max-width:900px) {
-
   .materials {
     margin-bottom: 75%;
   }
@@ -702,6 +690,7 @@ button {
   .materials-header {
     top: -70px;
   }
+
   .materials-hero {
     width: 100%;
     overflow: visible;
@@ -743,12 +732,10 @@ button {
 }
 
 @media(max-width:410px) {
-
   .materials-header {
     font-size: 1.3rem;
   }
 }
-
 
 
 /* Pricing */
@@ -899,7 +886,6 @@ button {
 
   .pricing-feedback img {
     width: 100%;
-    /* bottom: 15%; */
   }
 }
 
