@@ -80,7 +80,7 @@ const TeacherCards = () => {
                         <h4>Living in: {card.location}</h4>
                     </div>
 
-                    <img className="teacher-img" src={card.profilePicture}></img>
+                    <img className="teacher-img" src={card.profilePicture} alt="teacher profile"></img>
                     
                     <div className="teacher-card-bottom">
                         <p className="teacher-bio">{card.bio}</p>

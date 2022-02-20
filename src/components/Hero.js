@@ -10,8 +10,8 @@ const Hero = () => {
 
     return (
         <section className="hero"> 
-                <img src={heroImage}></img>
-                <img src={heroImage1}></img>
+                <img src={heroImage} alt="a man sat at a desk on a computer"></img>
+                <img src={heroImage1} alt="a student sat at a desk on a laptop"></img>
                 <h1>Online English School</h1>
                 <h2>Any time. Anywhere. Any way.</h2>
                 <div className="hero-btns">

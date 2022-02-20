@@ -28,7 +28,7 @@ const Navbar = () => {
             
             {<NavLinks />}
 
-            <img src={menuIcon} onClick={handleClick}></img>
+            <img src={menuIcon} alt="" onClick={handleClick}></img>
 
             {!mobileMenu && <NavLinks />}
 

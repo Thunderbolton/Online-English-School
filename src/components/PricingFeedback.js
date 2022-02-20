@@ -2,7 +2,6 @@ import feedback from "../img/feedback.svg"
 
 
 const PricingFeedback = () => {
-    const screenWidth = window.innerWidth;
 
     const quotes = [
         {text: "The teachers are very thoughtful and kind. They have a good understanding of cultural differences.", id: 1},
